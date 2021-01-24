@@ -1,0 +1,214 @@
+[0;32m--------------start------------2021-01-20 00:58:46[0m
+[0;32margs:dynamic-ss --algo fora --epsilon 0.5 --prefix ./data/ --dataset dblp --with_idx --beta 1 --opt --query_size 20 --update_size 80 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 613586 m: 3980318
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=613586 graph.m=3980318 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=1.62976e-06 
+config.pfail=1.62976e-06 
+config.rmax=4.93327e-08 
+config.omega=8.60261e+07 
+rw_max_size=13513676 rw_idx.max_size()=4611686018427387903 
+i=0 
+rw_max_size=13513680 rw_idx.max_size()=4611686018427387903 
+i=1 
+rw_max_size=13513683 rw_idx.max_size()=4611686018427387903 
+i=2 
+rw_max_size=13513687 rw_idx.max_size()=4611686018427387903 
+i=3 
+rw_max_size=13513690 rw_idx.max_size()=4611686018427387903 
+i=4 
+rw_max_size=13513693 rw_idx.max_size()=4611686018427387903 
+i=5 
+i=6 
+rw_max_size=13513696 rw_idx.max_size()=4611686018427387903 
+i=7 
+rw_max_size=13513700 rw_idx.max_size()=4611686018427387903 
+i=8 
+rw_max_size=13513704 rw_idx.max_size()=4611686018427387903 
+i=9 
+i=10 
+rw_max_size=13513707 rw_idx.max_size()=4611686018427387903 
+i=11 
+rw_max_size=13513710 rw_idx.max_size()=4611686018427387903 
+i=12 
+rw_max_size=13513714 rw_idx.max_size()=4611686018427387903 
+i=13 
+rw_max_size=13513717 rw_idx.max_size()=4611686018427387903 
+i=14 
+rw_max_size=13513720 rw_idx.max_size()=4611686018427387903 
+i=15 
+rw_max_size=13513724 rw_idx.max_size()=4611686018427387903 
+i=16 
+rw_max_size=13513728 rw_idx.max_size()=4611686018427387903 
+i=17 
+rw_max_size=13513731 rw_idx.max_size()=4611686018427387903 
+i=18 
+rw_max_size=13513734 rw_idx.max_size()=4611686018427387903 
+i=19 
+rw_max_size=13513737 rw_idx.max_size()=4611686018427387903 
+i=20 
+rw_max_size=13513741 rw_idx.max_size()=4611686018427387903 
+i=21 
+rw_max_size=13513744 rw_idx.max_size()=4611686018427387903 
+i=22 
+rw_max_size=13513748 rw_idx.max_size()=4611686018427387903 
+i=23 
+rw_max_size=13513751 rw_idx.max_size()=4611686018427387903 
+i=24 
+rw_max_size=13513755 rw_idx.max_size()=4611686018427387903 
+i=25 
+rw_max_size=13513758 rw_idx.max_size()=4611686018427387903 
+i=26 
+rw_max_size=13513761 rw_idx.max_size()=4611686018427387903 
+i=27 
+rw_max_size=13513764 rw_idx.max_size()=4611686018427387903 
+i=28 
+i=29 
+i=30 
+rw_max_size=13513768 rw_idx.max_size()=4611686018427387903 
+i=31 
+i=32 
+rw_max_size=13513772 rw_idx.max_size()=4611686018427387903 
+i=33 
+i=34 
+rw_max_size=13513775 rw_idx.max_size()=4611686018427387903 
+i=35 
+rw_max_size=13513778 rw_idx.max_size()=4611686018427387903 
+i=36 
+rw_max_size=13513781 rw_idx.max_size()=4611686018427387903 
+i=37 
+rw_max_size=13513785 rw_idx.max_size()=4611686018427387903 
+i=38 
+rw_max_size=13513788 rw_idx.max_size()=4611686018427387903 
+i=39 
+i=40 
+i=41 
+rw_max_size=13513792 rw_idx.max_size()=4611686018427387903 
+i=42 
+rw_max_size=13513795 rw_idx.max_size()=4611686018427387903 
+i=43 
+rw_max_size=13513799 rw_idx.max_size()=4611686018427387903 
+i=44 
+rw_max_size=13513802 rw_idx.max_size()=4611686018427387903 
+i=45 
+i=46 
+rw_max_size=13513805 rw_idx.max_size()=4611686018427387903 
+i=47 
+rw_max_size=13513808 rw_idx.max_size()=4611686018427387903 
+i=48 
+rw_max_size=13513812 rw_idx.max_size()=4611686018427387903 
+i=49 
+rw_max_size=13513816 rw_idx.max_size()=4611686018427387903 
+i=50 
+rw_max_size=13513819 rw_idx.max_size()=4611686018427387903 
+i=51 
+rw_max_size=13513822 rw_idx.max_size()=4611686018427387903 
+i=52 
+i=53 
+rw_max_size=13513826 rw_idx.max_size()=4611686018427387903 
+i=54 
+rw_max_size=13513829 rw_idx.max_size()=4611686018427387903 
+i=55 
+rw_max_size=13513832 rw_idx.max_size()=4611686018427387903 
+i=56 
+rw_max_size=13513836 rw_idx.max_size()=4611686018427387903 
+i=57 
+rw_max_size=13513840 rw_idx.max_size()=4611686018427387903 
+i=58 
+i=59 
+rw_max_size=13513843 rw_idx.max_size()=4611686018427387903 
+i=60 
+rw_max_size=13513846 rw_idx.max_size()=4611686018427387903 
+i=61 
+rw_max_size=13513849 rw_idx.max_size()=4611686018427387903 
+i=62 
+i=63 
+i=64 
+rw_max_size=13513853 rw_idx.max_size()=4611686018427387903 
+i=65 
+rw_max_size=13513856 rw_idx.max_size()=4611686018427387903 
+i=66 
+rw_max_size=13513860 rw_idx.max_size()=4611686018427387903 
+i=67 
+rw_max_size=13513863 rw_idx.max_size()=4611686018427387903 
+i=68 
+rw_max_size=13513867 rw_idx.max_size()=4611686018427387903 
+i=69 
+rw_max_size=13513870 rw_idx.max_size()=4611686018427387903 
+i=70 
+rw_max_size=13513873 rw_idx.max_size()=4611686018427387903 
+i=71 
+rw_max_size=13513876 rw_idx.max_size()=4611686018427387903 
+i=72 
+rw_max_size=13513880 rw_idx.max_size()=4611686018427387903 
+i=73 
+rw_max_size=13513884 rw_idx.max_size()=4611686018427387903 
+i=74 
+rw_max_size=13513887 rw_idx.max_size()=4611686018427387903 
+i=75 
+rw_max_size=13513890 rw_idx.max_size()=4611686018427387903 
+i=76 
+rw_max_size=13513894 rw_idx.max_size()=4611686018427387903 
+i=77 
+rw_max_size=13513897 rw_idx.max_size()=4611686018427387903 
+i=78 
+i=79 
+rw_max_size=13513900 rw_idx.max_size()=4611686018427387903 
+i=80 
+rw_max_size=13513904 rw_idx.max_size()=4611686018427387903 
+i=81 
+rw_max_size=13513907 rw_idx.max_size()=4611686018427387903 
+i=82 
+rw_max_size=13513911 rw_idx.max_size()=4611686018427387903 
+i=83 
+rw_max_size=13513914 rw_idx.max_size()=4611686018427387903 
+i=84 
+rw_max_size=13513917 rw_idx.max_size()=4611686018427387903 
+i=85 
+i=86 
+rw_max_size=13513920 rw_idx.max_size()=4611686018427387903 
+i=87 
+rw_max_size=13513924 rw_idx.max_size()=4611686018427387903 
+i=88 
+i=89 
+rw_max_size=13513928 rw_idx.max_size()=4611686018427387903 
+i=90 
+rw_max_size=13513931 rw_idx.max_size()=4611686018427387903 
+i=91 
+rw_max_size=13513934 rw_idx.max_size()=4611686018427387903 
+i=92 
+rw_max_size=13513938 rw_idx.max_size()=4611686018427387903 
+i=93 
+i=94 
+rw_max_size=13513941 rw_idx.max_size()=4611686018427387903 
+i=95 
+i=96 
+rw_max_size=13513944 rw_idx.max_size()=4611686018427387903 
+i=97 
+i=98 
+i=99 
+### Timer 
+t=   0  299.000224  
+t=   3  1.810453  
+t=   5  1.247820  
+t=   6  0.522102  
+t=  13  297.187894  
+
+trw:47835044
+hrw:47814687
+### Timer 
+t=   0  299.000224  
+t=   3  1.810453  
+t=   5  1.247820  
+t=   6  0.522102  
+t=  13  297.187894  
+config.beta=1 

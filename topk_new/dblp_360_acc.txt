@@ -1,4 +1,4 @@
-[0;32m--------------start------------2021-01-29 07:57:05[0m
+[0;32m--------------start------------2021-01-31 18:18:20[0m
 [0;32margs:calc-acc --algo fora --epsilon 0.5 --prefix ./data/ --dataset dblp --check_size 100 [0m
 action: calc-acc
 config.epsilon=0.5 
@@ -12,31 +12,31 @@ algo=fora
 rela_err=0 ab_err=0 NDCG=0 precision=0 
 query_num=100 
 algo=baton 
-rela_err=188.94 ab_err=1.91822e-06 NDCG=-nan precision=1 
+rela_err=188.883 ab_err=1.91822e-06 NDCG=-nan precision=1 
 query_num=100 
 algo=partup 
-rela_err=188.955 ab_err=2.05351e-06 NDCG=-nan precision=1 
+rela_err=188.899 ab_err=2.05351e-06 NDCG=-nan precision=1 
 query_num=100 
 algo=lazyup 
-rela_err=188.939 ab_err=1.94443e-06 NDCG=-nan precision=1 
+rela_err=188.883 ab_err=1.94443e-06 NDCG=-nan precision=1 
 query_num=0 
 algo=resacc 
 rela_err=0 ab_err=0 NDCG=0 precision=0 
 query_num=100 
 algo=fora 
-rela_err=0.00722653 ab_err=1.14488e-06 NDCG=0.999994 precision=0.99288 
+rela_err=0.00722652 ab_err=1.14487e-06 NDCG=0.999994 precision=0.9929 
 query_num=100 
 algo=foran 
-rela_err=225413 ab_err=0.00114237 NDCG=-nan precision=0.34146 
+rela_err=225343 ab_err=0.00114237 NDCG=-nan precision=0.34146 
 query_num=100 
 algo=partup 
-rela_err=225414 ab_err=0.00114235 NDCG=-nan precision=0.34148 
+rela_err=225344 ab_err=0.00114235 NDCG=-nan precision=0.34148 
 query_num=100 
 algo=lazyup 
-rela_err=225414 ab_err=0.00114235 NDCG=-nan precision=0.34146 
+rela_err=0.00623611 ab_err=1.11244e-06 NDCG=0.999998 precision=0.99408 
 ### Timer 
 config.beta=1 
-[0;31m--------------stop------------2021-01-29 07:59:26[0m
+[0;31m--------------stop------------2021-01-31 18:20:34[0m
 
 
 

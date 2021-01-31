@@ -1,4 +1,4 @@
-[0;32m--------------start------------2021-01-29 08:59:23[0m
+[0;32m--------------start------------2021-01-31 18:22:42[0m
 [0;32margs:calc-acc --algo fora --epsilon 0.5 --prefix ./data/ --dataset dblp --check_size 100 [0m
 action: calc-acc
 config.epsilon=0.5 
@@ -33,10 +33,10 @@ algo=partup
 rela_err=225344 ab_err=0.00114235 NDCG=-nan precision=0.34148 
 query_num=100 
 algo=lazyup 
-rela_err=225344 ab_err=0.00114235 NDCG=-nan precision=0.34146 
+rela_err=0.00623611 ab_err=1.11244e-06 NDCG=0.999998 precision=0.99408 
 ### Timer 
 config.beta=1 
-[0;31m--------------stop------------2021-01-29 09:04:00[0m
+[0;31m--------------stop------------2021-01-31 18:24:52[0m
 
 
 

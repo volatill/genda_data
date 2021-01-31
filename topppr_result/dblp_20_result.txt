@@ -1,0 +1,103 @@
+n= 613586
+...
+n=: 613586
+m = :3980318
+read file time: 0.703854
+edge num: 3980318
+thread core: 40
+init done! 
+read done!
+----------------------------------------
+node: 416178
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+gap too small!
+----------------------------------------
+node: 347534
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 449288
+key not found
+----------------------------------------
+node: 357359
+key not found
+----------------------------------------
+node: 380690
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 268898
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 181214
+key not found
+key not found
+key not found
+----------------------------------------
+node: 149614
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 14339
+key not found
+----------------------------------------
+node: 196619
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+Top K value is too small
+----------------------------------------
+node: 99208
+key not found
+key not found
+----------------------------------------
+node: 400825
+key not found
+----------------------------------------
+node: 138303
+key not found
+----------------------------------------
+node: 292515
+key not found
+----------------------------------------
+node: 391330
+----------------------------------------
+node: 281840
+key not found
+key not found
+key not found
+----------------------------------------
+node: 359819
+key not found
+key not found
+----------------------------------------
+node: 93353
+key not found
+avg abserr: 1.30617e-06
+avg precision: 0.994
+avg NDCG: 0.999939
+total time: 1.12705
+./TopPPR -d dblp -algo TopPPR -r 0.99 -n 20 -k 500 

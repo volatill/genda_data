@@ -1,0 +1,380 @@
+n= 4847571
+...
+n=: 4847571
+m = :68993773
+read file time: 16.7545
+edge num: 68993773
+thread core: 40
+init done! 
+read done!
+----------------------------------------
+node: 932656
+key not found
+----------------------------------------
+node: 1258685
+key not found
+----------------------------------------
+node: 44663
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 977237
+key not found
+----------------------------------------
+node: 2695781
+key not found
+key not found
+----------------------------------------
+node: 3316562
+----------------------------------------
+node: 889716
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 4276828
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 2992273
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 651363
+key not found
+----------------------------------------
+node: 3271202
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 350953
+key not found
+key not found
+----------------------------------------
+node: 2692115
+key not found
+key not found
+----------------------------------------
+node: 3626998
+key not found
+key not found
+----------------------------------------
+node: 4496271
+key not found
+----------------------------------------
+node: 2444789
+key not found
+key not found
+----------------------------------------
+node: 2119247
+key not found
+key not found
+----------------------------------------
+node: 3339690
+key not found
+key not found
+key not found
+----------------------------------------
+node: 4426259
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 861255
+key not found
+----------------------------------------
+node: 2884225
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1474376
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 851039
+----------------------------------------
+node: 4253704
+key not found
+----------------------------------------
+node: 2405001
+key not found
+----------------------------------------
+node: 2451125
+key not found
+----------------------------------------
+node: 1457701
+key not found
+key not found
+----------------------------------------
+node: 2392750
+key not found
+----------------------------------------
+node: 2144163
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1124554
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3562603
+key not found
+key not found
+----------------------------------------
+node: 4297888
+key not found
+----------------------------------------
+node: 3685057
+key not found
+----------------------------------------
+node: 4322229
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 124635
+key not found
+----------------------------------------
+node: 914946
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3889956
+----------------------------------------
+node: 1610104
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 147849
+key not found
+key not found
+----------------------------------------
+node: 1256210
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 2755688
+key not found
+----------------------------------------
+node: 215920
+key not found
+key not found
+----------------------------------------
+node: 4089256
+key not found
+----------------------------------------
+node: 1757778
+key not found
+----------------------------------------
+node: 2129142
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3064917
+key not found
+----------------------------------------
+node: 1654350
+----------------------------------------
+node: 3930675
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1982551
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 2544070
+key not found
+----------------------------------------
+node: 2262935
+key not found
+----------------------------------------
+node: 1180160
+----------------------------------------
+node: 3714925
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1150127
+key not found
+----------------------------------------
+Top K value is too small
+----------------------------------------
+node: 266047
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3852624
+key not found
+----------------------------------------
+node: 55812
+----------------------------------------
+node: 2595046
+----------------------------------------
+node: 3276855
+----------------------------------------
+node: 2108874
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1339
+----------------------------------------
+node: 3958416
+key not found
+----------------------------------------
+node: 116871
+----------------------------------------
+node: 4231411
+key not found
+key not found
+----------------------------------------
+node: 474661
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 838293
+----------------------------------------
+node: 3069026
+key not found
+----------------------------------------
+node: 3566444
+----------------------------------------
+node: 520237
+----------------------------------------
+node: 3243324
+key not found
+key not found
+----------------------------------------
+node: 2792504
+----------------------------------------
+node: 1904145
+----------------------------------------
+node: 668543
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3287400
+----------------------------------------
+node: 2093168
+key not found
+----------------------------------------
+node: 1462182
+key not found
+key not found
+----------------------------------------
+node: 1914996
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 2138131
+----------------------------------------
+node: 1027582
+avg abserr: 3.15617e-06
+avg precision: 0.994329
+avg NDCG: 0.999919
+total time: 21.3102
+./TopPPR -d lj -algo TopPPR -r 0.99 -n 80 -k 500 

@@ -1,0 +1,12 @@
+[0;32m--------------start------------2021-01-29 07:50:09[0m
+[0;32margs:dynamic-topk --algo lazyup --epsilon 1 --prefix ./data/ --dataset dblp --with_idx --beta 1 --query_size 200 --update_size 200 --check_size 100 --check_from 500 --opt [0m
+action: dynamic-topk
+config.epsilon=1 
+config.version=vector 
+config.action=dynamic-topk 
+sub constructor 
+init graph n: 613586 m: 3980318
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=613586 graph.m=3980318 

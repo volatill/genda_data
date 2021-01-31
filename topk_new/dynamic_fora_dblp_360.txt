@@ -1,0 +1,895 @@
+[0;32m--------------start------------2021-01-29 07:54:47[0m
+[0;32margs:dynamic-topk --algo fora --epsilon 1 --prefix ./data/ --dataset dblp --with_idx --beta 1 --query_size 360 --update_size 40 --check_size 100 --check_from 500 --opt [0m
+action: dynamic-topk
+config.epsilon=1 
+config.version=vector 
+config.action=dynamic-topk 
+sub constructor 
+init graph n: 613586 m: 3980318
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=613586 graph.m=3980318 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=1.62976e-06 
+config.pfail=1.62976e-06 
+config.rmax=9.86655e-08 
+config.omega=2.58078e+07 
+i=0 
+kth_ppr_score=0.000116289 config.delta=5e-05 rsum=0.126247 
+i=1 
+kth_ppr_score=5.1179e-05 config.delta=1.25e-05 rsum=0.0843451 
+i=2 
+kth_ppr_score=7.19177e-05 config.delta=1.25e-05 rsum=0.0886671 
+i=3 
+kth_ppr_score=0.000120959 config.delta=5e-05 rsum=0.130146 
+i=4 
+kth_ppr_score=9.25682e-05 config.delta=1.25e-05 rsum=0.0869709 
+i=5 
+kth_ppr_score=9.25682e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+i=6 
+kth_ppr_score=9.23834e-05 config.delta=1.25e-05 rsum=0.0879073 
+i=7 
+i=8 
+kth_ppr_score=9.23834e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+i=9 
+kth_ppr_score=6.64828e-05 config.delta=1.25e-05 rsum=0.046261 
+i=10 
+kth_ppr_score=0.000101359 config.delta=5e-05 rsum=0.104458 
+i=11 
+kth_ppr_score=3.40792e-05 config.delta=1.25e-05 rsum=0.0434912 
+i=12 
+kth_ppr_score=4.32867e-06 config.delta=1.62976e-06 rsum=0.00421682 
+i=13 
+kth_ppr_score=8.85525e-05 config.delta=1.25e-05 rsum=0.100606 
+i=14 
+kth_ppr_score=4.62688e-05 config.delta=1.25e-05 rsum=0.0488296 
+i=15 
+kth_ppr_score=8.7229e-05 config.delta=1.25e-05 rsum=0.0955714 
+i=16 
+kth_ppr_score=0.000153627 config.delta=5e-05 rsum=0.204765 
+i=17 
+i=18 
+kth_ppr_score=7.44469e-05 config.delta=1.25e-05 rsum=0.0838473 
+i=19 
+kth_ppr_score=9.58667e-05 config.delta=1.25e-05 rsum=0.060654 
+i=20 
+kth_ppr_score=9.58667e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+i=21 
+kth_ppr_score=9.24151e-05 config.delta=1.25e-05 rsum=0.134834 
+i=22 
+i=23 
+kth_ppr_score=9.38901e-06 config.delta=3.125e-06 rsum=0.00752392 
+i=24 
+kth_ppr_score=1.83629e-05 config.delta=3.125e-06 rsum=0.0406125 
+i=25 
+kth_ppr_score=9.41982e-05 config.delta=1.25e-05 rsum=0.145327 
+i=26 
+kth_ppr_score=3.02618e-05 config.delta=1.25e-05 rsum=0.0577057 
+i=27 
+i=28 
+kth_ppr_score=0.000119901 config.delta=5e-05 rsum=0.121163 
+i=29 
+kth_ppr_score=6.9017e-05 config.delta=1.25e-05 rsum=0.122005 
+i=30 
+kth_ppr_score=7.08846e-05 config.delta=1.25e-05 rsum=0.0653502 
+i=31 
+kth_ppr_score=2.19019e-05 config.delta=3.125e-06 rsum=0.0187356 
+i=32 
+kth_ppr_score=9.41893e-05 config.delta=1.25e-05 rsum=0.128221 
+i=33 
+kth_ppr_score=9.41893e-05 config.delta=1.25e-05 rsum=1.91562e-06 
+i=34 
+kth_ppr_score=0.000122795 config.delta=5e-05 rsum=0.113811 
+i=35 
+kth_ppr_score=5.57383e-05 config.delta=1.25e-05 rsum=0.0831332 
+i=36 
+kth_ppr_score=0.00014547 config.delta=5e-05 rsum=0.142446 
+i=37 
+i=38 
+kth_ppr_score=4.58113e-05 config.delta=1.25e-05 rsum=0.0392698 
+i=39 
+kth_ppr_score=4.58113e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=40 
+kth_ppr_score=6.14627e-05 config.delta=1.25e-05 rsum=0.0629309 
+i=41 
+kth_ppr_score=2.88521e-06 config.delta=1.62976e-06 rsum=0.00444528 
+i=42 
+kth_ppr_score=0.000118116 config.delta=5e-05 rsum=0.157189 
+i=43 
+kth_ppr_score=9.52738e-05 config.delta=1.25e-05 rsum=0.0949086 
+i=44 
+kth_ppr_score=4.3537e-05 config.delta=1.25e-05 rsum=0.0561645 
+i=45 
+kth_ppr_score=2.99392e-05 config.delta=1.25e-05 rsum=0.0316567 
+i=46 
+kth_ppr_score=2.99392e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=47 
+kth_ppr_score=4.55257e-05 config.delta=1.25e-05 rsum=0.0589517 
+i=48 
+kth_ppr_score=7.25487e-05 config.delta=1.25e-05 rsum=0.0784125 
+i=49 
+kth_ppr_score=7.25487e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=50 
+kth_ppr_score=0.000107882 config.delta=5e-05 rsum=0.118833 
+i=51 
+kth_ppr_score=9.87741e-05 config.delta=1.25e-05 rsum=0.103091 
+i=52 
+kth_ppr_score=5.37404e-05 config.delta=1.25e-05 rsum=0.0499204 
+i=53 
+kth_ppr_score=5.37404e-05 config.delta=1.25e-05 rsum=1.48122e-06 
+i=54 
+kth_ppr_score=7.48273e-05 config.delta=1.25e-05 rsum=0.0502722 
+i=55 
+kth_ppr_score=0.000101404 config.delta=5e-05 rsum=0.217733 
+i=56 
+kth_ppr_score=0.000101404 config.delta=5e-05 rsum=2.39452e-06 
+i=57 
+kth_ppr_score=7.56527e-05 config.delta=1.25e-05 rsum=0.0823579 
+i=58 
+kth_ppr_score=8.56285e-05 config.delta=1.25e-05 rsum=0.114192 
+i=59 
+i=60 
+kth_ppr_score=9.0914e-07 config.delta=1.62976e-06 rsum=0.00161991 
+i=61 
+kth_ppr_score=0.000120711 config.delta=5e-05 rsum=0.138958 
+i=62 
+kth_ppr_score=0.000120711 config.delta=5e-05 rsum=1.226e-06 
+i=63 
+kth_ppr_score=2.53005e-05 config.delta=1.25e-05 rsum=0.0419229 
+i=64 
+kth_ppr_score=8.01372e-06 config.delta=3.125e-06 rsum=0.0088224 
+i=65 
+kth_ppr_score=0.000115462 config.delta=5e-05 rsum=0.219872 
+i=66 
+kth_ppr_score=0.000140473 config.delta=5e-05 rsum=0.179434 
+i=67 
+i=68 
+kth_ppr_score=8.61937e-05 config.delta=1.25e-05 rsum=0.10723 
+i=69 
+kth_ppr_score=7.82995e-05 config.delta=1.25e-05 rsum=0.101473 
+i=70 
+i=71 
+kth_ppr_score=0.000106296 config.delta=5e-05 rsum=0.148 
+i=72 
+kth_ppr_score=4.89694e-05 config.delta=1.25e-05 rsum=0.0504577 
+i=73 
+kth_ppr_score=4.48726e-05 config.delta=1.25e-05 rsum=0.0356173 
+i=74 
+kth_ppr_score=9.55142e-05 config.delta=1.25e-05 rsum=0.0965356 
+i=75 
+kth_ppr_score=7.59071e-05 config.delta=1.25e-05 rsum=0.123701 
+i=76 
+kth_ppr_score=8.68628e-06 config.delta=3.125e-06 rsum=0.0124333 
+i=77 
+kth_ppr_score=8.89591e-05 config.delta=1.25e-05 rsum=0.0684683 
+i=78 
+kth_ppr_score=6.52297e-05 config.delta=1.25e-05 rsum=0.0842018 
+i=79 
+kth_ppr_score=9.49373e-05 config.delta=1.25e-05 rsum=0.0877166 
+i=80 
+kth_ppr_score=3.12826e-05 config.delta=1.25e-05 rsum=0.0320805 
+i=81 
+kth_ppr_score=1.6653e-05 config.delta=3.125e-06 rsum=0.0169961 
+i=82 
+kth_ppr_score=1.6653e-05 config.delta=3.125e-06 rsum=1.6455e-07 
+i=83 
+kth_ppr_score=4.36481e-05 config.delta=1.25e-05 rsum=0.0427189 
+i=84 
+kth_ppr_score=6.95932e-05 config.delta=1.25e-05 rsum=0.0804168 
+i=85 
+kth_ppr_score=5.5335e-05 config.delta=1.25e-05 rsum=0.0789421 
+i=86 
+kth_ppr_score=5.5335e-05 config.delta=1.25e-05 rsum=1.5325e-06 
+i=87 
+i=88 
+kth_ppr_score=6.58041e-05 config.delta=1.25e-05 rsum=0.108624 
+i=89 
+kth_ppr_score=9.32315e-05 config.delta=1.25e-05 rsum=0.127097 
+i=90 
+kth_ppr_score=6.95427e-05 config.delta=1.25e-05 rsum=0.0892884 
+i=91 
+kth_ppr_score=4.0755e-05 config.delta=1.25e-05 rsum=0.0326655 
+i=92 
+kth_ppr_score=4.81851e-05 config.delta=1.25e-05 rsum=0.0810262 
+i=93 
+kth_ppr_score=4.81851e-05 config.delta=1.25e-05 rsum=2.7309e-06 
+i=94 
+i=95 
+kth_ppr_score=0.000178009 config.delta=5e-05 rsum=0.226977 
+i=96 
+kth_ppr_score=6.65731e-05 config.delta=1.25e-05 rsum=0.0560915 
+i=97 
+kth_ppr_score=2.04173e-05 config.delta=3.125e-06 rsum=0.03432 
+i=98 
+kth_ppr_score=1.53955e-05 config.delta=3.125e-06 rsum=0.0220412 
+i=99 
+kth_ppr_score=4.8726e-05 config.delta=1.25e-05 rsum=0.0435042 
+i=100 
+kth_ppr_score=5.95924e-05 config.delta=1.25e-05 rsum=0.0749458 
+i=101 
+kth_ppr_score=4.12986e-05 config.delta=1.25e-05 rsum=0.0454822 
+i=102 
+kth_ppr_score=7.31897e-05 config.delta=1.25e-05 rsum=0.0697939 
+i=103 
+kth_ppr_score=0.000110529 config.delta=5e-05 rsum=0.131039 
+i=104 
+kth_ppr_score=0.000110529 config.delta=5e-05 rsum=1.35662e-05 
+i=105 
+kth_ppr_score=0.000108975 config.delta=5e-05 rsum=0.149426 
+i=106 
+kth_ppr_score=0.000108975 config.delta=5e-05 rsum=4.14381e-06 
+i=107 
+kth_ppr_score=9.77505e-05 config.delta=1.25e-05 rsum=0.126113 
+i=108 
+kth_ppr_score=9.77505e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=109 
+kth_ppr_score=6.80281e-05 config.delta=1.25e-05 rsum=0.0679148 
+i=110 
+kth_ppr_score=6.80281e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=111 
+kth_ppr_score=6.80281e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=112 
+kth_ppr_score=0.0001107 config.delta=5e-05 rsum=0.168542 
+i=113 
+kth_ppr_score=6.27544e-06 config.delta=3.125e-06 rsum=0.0106958 
+i=114 
+kth_ppr_score=6.27544e-06 config.delta=3.125e-06 rsum=1.04e-06 
+i=115 
+kth_ppr_score=5.66356e-05 config.delta=1.25e-05 rsum=0.0631255 
+i=116 
+kth_ppr_score=0.000114726 config.delta=5e-05 rsum=0.223378 
+i=117 
+kth_ppr_score=7.5032e-05 config.delta=1.25e-05 rsum=0.082354 
+i=118 
+kth_ppr_score=9.49034e-05 config.delta=1.25e-05 rsum=0.054483 
+i=119 
+kth_ppr_score=0.000115983 config.delta=5e-05 rsum=0.190941 
+i=120 
+kth_ppr_score=7.46392e-05 config.delta=1.25e-05 rsum=0.0917448 
+i=121 
+kth_ppr_score=0.000118637 config.delta=5e-05 rsum=0.152911 
+i=122 
+i=123 
+kth_ppr_score=0.000143801 config.delta=5e-05 rsum=0.148363 
+i=124 
+kth_ppr_score=1.49499e-05 config.delta=3.125e-06 rsum=0.0112344 
+i=125 
+kth_ppr_score=1.49499e-05 config.delta=3.125e-06 rsum=2.59634e-06 
+i=126 
+i=127 
+i=128 
+kth_ppr_score=1.49499e-05 config.delta=3.125e-06 rsum=1.70743e-06 
+i=129 
+kth_ppr_score=1.85137e-05 config.delta=3.125e-06 rsum=0.0217543 
+i=130 
+kth_ppr_score=8.67228e-05 config.delta=1.25e-05 rsum=0.0688641 
+i=131 
+kth_ppr_score=8.67228e-05 config.delta=1.25e-05 rsum=5.81531e-06 
+i=132 
+kth_ppr_score=8.50807e-05 config.delta=1.25e-05 rsum=0.0933589 
+i=133 
+kth_ppr_score=9.46104e-05 config.delta=1.25e-05 rsum=0.15285 
+i=134 
+kth_ppr_score=8.79586e-06 config.delta=3.125e-06 rsum=0.0078188 
+i=135 
+kth_ppr_score=9.36659e-05 config.delta=1.25e-05 rsum=0.116598 
+i=136 
+kth_ppr_score=5.1759e-05 config.delta=1.25e-05 rsum=0.0439702 
+i=137 
+kth_ppr_score=1.51878e-05 config.delta=3.125e-06 rsum=0.0158611 
+i=138 
+kth_ppr_score=9.12752e-05 config.delta=1.25e-05 rsum=0.125887 
+i=139 
+kth_ppr_score=0.000101129 config.delta=5e-05 rsum=0.202177 
+i=140 
+kth_ppr_score=0.000123168 config.delta=5e-05 rsum=0.139645 
+i=141 
+kth_ppr_score=0.000114202 config.delta=5e-05 rsum=0.215366 
+i=142 
+kth_ppr_score=0.000103291 config.delta=5e-05 rsum=0.176138 
+i=143 
+kth_ppr_score=7.87956e-05 config.delta=1.25e-05 rsum=0.0793783 
+i=144 
+i=145 
+kth_ppr_score=1.84624e-05 config.delta=3.125e-06 rsum=0.0157285 
+i=146 
+kth_ppr_score=0.000100172 config.delta=5e-05 rsum=0.179531 
+i=147 
+kth_ppr_score=9.28868e-06 config.delta=3.125e-06 rsum=0.00899549 
+i=148 
+kth_ppr_score=0.000154188 config.delta=5e-05 rsum=0.167213 
+i=149 
+kth_ppr_score=0.000142487 config.delta=5e-05 rsum=0.254888 
+i=150 
+kth_ppr_score=0.000123269 config.delta=5e-05 rsum=0.209843 
+i=151 
+kth_ppr_score=0.000115679 config.delta=5e-05 rsum=0.135442 
+i=152 
+kth_ppr_score=9.52922e-05 config.delta=1.25e-05 rsum=0.15062 
+i=153 
+kth_ppr_score=0.000167892 config.delta=5e-05 rsum=0.195296 
+i=154 
+i=155 
+kth_ppr_score=0.000121106 config.delta=5e-05 rsum=0.127303 
+i=156 
+i=157 
+kth_ppr_score=5.53516e-05 config.delta=1.25e-05 rsum=0.0866223 
+i=158 
+kth_ppr_score=8.80396e-05 config.delta=1.25e-05 rsum=0.0796395 
+i=159 
+kth_ppr_score=5.46744e-06 config.delta=1.62976e-06 rsum=0.00609181 
+i=160 
+kth_ppr_score=0.000103076 config.delta=5e-05 rsum=0.150403 
+i=161 
+i=162 
+kth_ppr_score=0.00013761 config.delta=5e-05 rsum=0.216358 
+i=163 
+kth_ppr_score=0.000143829 config.delta=5e-05 rsum=0.133445 
+i=164 
+kth_ppr_score=0.000122005 config.delta=5e-05 rsum=0.228176 
+i=165 
+i=166 
+kth_ppr_score=6.24605e-05 config.delta=1.25e-05 rsum=0.0700334 
+i=167 
+kth_ppr_score=4.05459e-05 config.delta=1.25e-05 rsum=0.0487809 
+i=168 
+i=169 
+kth_ppr_score=1.66379e-05 config.delta=3.125e-06 rsum=0.0299596 
+i=170 
+kth_ppr_score=8.64662e-05 config.delta=1.25e-05 rsum=0.101162 
+i=171 
+kth_ppr_score=7.10553e-05 config.delta=1.25e-05 rsum=0.0744345 
+i=172 
+i=173 
+kth_ppr_score=0.000106152 config.delta=5e-05 rsum=0.223858 
+i=174 
+kth_ppr_score=0.000107195 config.delta=5e-05 rsum=0.19335 
+i=175 
+kth_ppr_score=7.4981e-05 config.delta=1.25e-05 rsum=0.146387 
+i=176 
+kth_ppr_score=1.47274e-05 config.delta=3.125e-06 rsum=0.0130957 
+i=177 
+kth_ppr_score=2.75537e-05 config.delta=1.25e-05 rsum=0.033923 
+i=178 
+kth_ppr_score=4.3788e-05 config.delta=1.25e-05 rsum=0.0425347 
+i=179 
+kth_ppr_score=0.000106837 config.delta=5e-05 rsum=0.213989 
+i=180 
+i=181 
+kth_ppr_score=4.87234e-05 config.delta=1.25e-05 rsum=0.0335234 
+i=182 
+i=183 
+kth_ppr_score=0.000120654 config.delta=5e-05 rsum=0.200691 
+i=184 
+kth_ppr_score=4.99899e-05 config.delta=1.25e-05 rsum=0.050073 
+i=185 
+kth_ppr_score=1.3375e-05 config.delta=3.125e-06 rsum=0.00967423 
+i=186 
+kth_ppr_score=1.71712e-05 config.delta=3.125e-06 rsum=0.0243572 
+i=187 
+kth_ppr_score=7.07024e-05 config.delta=1.25e-05 rsum=0.0592273 
+i=188 
+kth_ppr_score=9.68475e-06 config.delta=3.125e-06 rsum=0.0149026 
+i=189 
+kth_ppr_score=9.68475e-06 config.delta=3.125e-06 rsum=1.6455e-07 
+i=190 
+kth_ppr_score=6.15895e-05 config.delta=1.25e-05 rsum=0.0604184 
+i=191 
+i=192 
+kth_ppr_score=4.2283e-05 config.delta=1.25e-05 rsum=0.0310653 
+i=193 
+kth_ppr_score=4.69288e-05 config.delta=1.25e-05 rsum=0.0515276 
+i=194 
+kth_ppr_score=4.43422e-05 config.delta=1.25e-05 rsum=0.0672264 
+i=195 
+kth_ppr_score=3.16703e-05 config.delta=1.25e-05 rsum=0.0353336 
+i=196 
+kth_ppr_score=5.98615e-05 config.delta=1.25e-05 rsum=0.0466533 
+i=197 
+kth_ppr_score=4.90842e-06 config.delta=1.62976e-06 rsum=0.00576653 
+i=198 
+kth_ppr_score=0.000135536 config.delta=5e-05 rsum=0.101707 
+i=199 
+kth_ppr_score=3.73935e-05 config.delta=1.25e-05 rsum=0.0419235 
+i=200 
+kth_ppr_score=9.10383e-05 config.delta=1.25e-05 rsum=0.111035 
+i=201 
+kth_ppr_score=6.47894e-05 config.delta=1.25e-05 rsum=0.0700239 
+i=202 
+kth_ppr_score=0.000118645 config.delta=5e-05 rsum=0.118971 
+i=203 
+kth_ppr_score=5.83175e-05 config.delta=1.25e-05 rsum=0.0865542 
+i=204 
+kth_ppr_score=5.9022e-05 config.delta=1.25e-05 rsum=0.0820971 
+i=205 
+kth_ppr_score=0.00010244 config.delta=5e-05 rsum=0.150891 
+i=206 
+kth_ppr_score=8.53599e-05 config.delta=1.25e-05 rsum=0.0841674 
+i=207 
+kth_ppr_score=2.11236e-05 config.delta=3.125e-06 rsum=0.0163515 
+i=208 
+kth_ppr_score=0.000125678 config.delta=5e-05 rsum=0.140485 
+i=209 
+kth_ppr_score=4.53035e-05 config.delta=1.25e-05 rsum=0.0318851 
+i=210 
+kth_ppr_score=0.000111771 config.delta=5e-05 rsum=0.157752 
+i=211 
+kth_ppr_score=7.27477e-05 config.delta=1.25e-05 rsum=0.104897 
+i=212 
+kth_ppr_score=0.000105442 config.delta=5e-05 rsum=0.151518 
+i=213 
+kth_ppr_score=2.64254e-05 config.delta=1.25e-05 rsum=0.0359589 
+i=214 
+kth_ppr_score=0.000126811 config.delta=5e-05 rsum=0.18758 
+i=215 
+kth_ppr_score=0.000124776 config.delta=5e-05 rsum=0.160096 
+i=216 
+kth_ppr_score=7.57071e-05 config.delta=1.25e-05 rsum=0.0889881 
+i=217 
+kth_ppr_score=7.57071e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=218 
+kth_ppr_score=0.000106067 config.delta=5e-05 rsum=0.20733 
+i=219 
+kth_ppr_score=1.40168e-05 config.delta=3.125e-06 rsum=0.0212326 
+i=220 
+kth_ppr_score=1.40168e-05 config.delta=3.125e-06 rsum=1.6455e-07 
+i=221 
+kth_ppr_score=0.0001291 config.delta=5e-05 rsum=0.154796 
+i=222 
+kth_ppr_score=5.88071e-05 config.delta=1.25e-05 rsum=0.0670109 
+i=223 
+kth_ppr_score=0.000102818 config.delta=5e-05 rsum=0.105807 
+i=224 
+kth_ppr_score=7.91736e-05 config.delta=1.25e-05 rsum=0.0873842 
+i=225 
+kth_ppr_score=7.91736e-05 config.delta=1.25e-05 rsum=2.76759e-06 
+i=226 
+kth_ppr_score=5.72224e-06 config.delta=1.62976e-06 rsum=0.00784853 
+i=227 
+kth_ppr_score=0.000124881 config.delta=5e-05 rsum=0.205539 
+i=228 
+kth_ppr_score=0.000136621 config.delta=5e-05 rsum=0.207222 
+i=229 
+kth_ppr_score=0.000136621 config.delta=5e-05 rsum=1.226e-06 
+i=230 
+kth_ppr_score=6.78946e-05 config.delta=1.25e-05 rsum=0.0761154 
+i=231 
+kth_ppr_score=0.00011093 config.delta=5e-05 rsum=0.130512 
+i=232 
+kth_ppr_score=0.000109586 config.delta=5e-05 rsum=0.184714 
+i=233 
+kth_ppr_score=8.56997e-05 config.delta=1.25e-05 rsum=0.138704 
+i=234 
+kth_ppr_score=3.66035e-05 config.delta=1.25e-05 rsum=0.0521746 
+i=235 
+kth_ppr_score=2.27231e-05 config.delta=3.125e-06 rsum=0.0145164 
+i=236 
+kth_ppr_score=0.00011483 config.delta=5e-05 rsum=0.163842 
+i=237 
+kth_ppr_score=7.69485e-05 config.delta=1.25e-05 rsum=0.0899414 
+i=238 
+kth_ppr_score=5.1406e-05 config.delta=1.25e-05 rsum=0.0327372 
+i=239 
+kth_ppr_score=8.37413e-05 config.delta=1.25e-05 rsum=0.096782 
+i=240 
+kth_ppr_score=8.09817e-05 config.delta=1.25e-05 rsum=0.128036 
+i=241 
+kth_ppr_score=5.6835e-05 config.delta=1.25e-05 rsum=0.0533962 
+i=242 
+i=243 
+kth_ppr_score=5.6835e-05 config.delta=1.25e-05 rsum=2.76759e-06 
+i=244 
+kth_ppr_score=8.17857e-05 config.delta=1.25e-05 rsum=0.0694266 
+i=245 
+kth_ppr_score=1.81285e-06 config.delta=1.62976e-06 rsum=0.00186782 
+i=246 
+kth_ppr_score=7.48301e-05 config.delta=1.25e-05 rsum=0.0892362 
+i=247 
+kth_ppr_score=0.000116766 config.delta=5e-05 rsum=0.144772 
+i=248 
+kth_ppr_score=8.52207e-05 config.delta=1.25e-05 rsum=0.120103 
+i=249 
+kth_ppr_score=8.52207e-05 config.delta=1.25e-05 rsum=9.37049e-06 
+i=250 
+kth_ppr_score=0.000119286 config.delta=5e-05 rsum=0.14116 
+i=251 
+kth_ppr_score=0.000103904 config.delta=5e-05 rsum=0.214267 
+i=252 
+kth_ppr_score=6.22144e-05 config.delta=1.25e-05 rsum=0.101287 
+i=253 
+kth_ppr_score=8.29412e-05 config.delta=1.25e-05 rsum=0.0883818 
+i=254 
+kth_ppr_score=5.0475e-05 config.delta=1.25e-05 rsum=0.0886203 
+i=255 
+kth_ppr_score=9.53585e-05 config.delta=1.25e-05 rsum=0.131441 
+i=256 
+kth_ppr_score=5.43459e-05 config.delta=1.25e-05 rsum=0.0685879 
+i=257 
+kth_ppr_score=3.85427e-05 config.delta=1.25e-05 rsum=0.0376699 
+i=258 
+kth_ppr_score=0.000102259 config.delta=5e-05 rsum=0.146541 
+i=259 
+kth_ppr_score=0.000102259 config.delta=5e-05 rsum=1.695e-05 
+i=260 
+kth_ppr_score=0.000102259 config.delta=5e-05 rsum=2.55482e-05 
+i=261 
+kth_ppr_score=0.000109902 config.delta=5e-05 rsum=0.10485 
+i=262 
+kth_ppr_score=7.96146e-05 config.delta=1.25e-05 rsum=0.0831783 
+i=263 
+kth_ppr_score=6.24823e-05 config.delta=1.25e-05 rsum=0.0930725 
+i=264 
+kth_ppr_score=6.24823e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=265 
+kth_ppr_score=1.0987e-05 config.delta=3.125e-06 rsum=0.0148944 
+i=266 
+kth_ppr_score=1.50121e-05 config.delta=3.125e-06 rsum=0.0179245 
+i=267 
+i=268 
+kth_ppr_score=3.36599e-05 config.delta=1.25e-05 rsum=0.0424684 
+i=269 
+kth_ppr_score=0.000118215 config.delta=5e-05 rsum=0.15811 
+i=270 
+kth_ppr_score=0.000118215 config.delta=5e-05 rsum=9.51992e-06 
+i=271 
+kth_ppr_score=4.09218e-05 config.delta=1.25e-05 rsum=0.030797 
+i=272 
+kth_ppr_score=5.29188e-05 config.delta=1.25e-05 rsum=0.0544236 
+i=273 
+kth_ppr_score=6.50783e-05 config.delta=1.25e-05 rsum=0.0616275 
+i=274 
+i=275 
+kth_ppr_score=0.000100157 config.delta=5e-05 rsum=0.140456 
+i=276 
+kth_ppr_score=0.000100157 config.delta=5e-05 rsum=4.14381e-06 
+i=277 
+i=278 
+kth_ppr_score=9.60151e-05 config.delta=1.25e-05 rsum=0.0573297 
+i=279 
+kth_ppr_score=0.000103418 config.delta=5e-05 rsum=0.113573 
+i=280 
+kth_ppr_score=8.92302e-05 config.delta=1.25e-05 rsum=0.099238 
+i=281 
+kth_ppr_score=5.69159e-05 config.delta=1.25e-05 rsum=0.0777637 
+i=282 
+kth_ppr_score=8.58496e-05 config.delta=1.25e-05 rsum=0.169924 
+i=283 
+kth_ppr_score=3.20312e-05 config.delta=1.25e-05 rsum=0.0297083 
+i=284 
+kth_ppr_score=3.40537e-05 config.delta=1.25e-05 rsum=0.0346813 
+i=285 
+kth_ppr_score=5.81406e-05 config.delta=1.25e-05 rsum=0.0939856 
+i=286 
+kth_ppr_score=0.000101008 config.delta=5e-05 rsum=0.139133 
+i=287 
+kth_ppr_score=4.09092e-05 config.delta=1.25e-05 rsum=0.0618263 
+i=288 
+kth_ppr_score=1.30724e-05 config.delta=3.125e-06 rsum=0.0152771 
+i=289 
+kth_ppr_score=1.30724e-05 config.delta=3.125e-06 rsum=1.6455e-07 
+i=290 
+kth_ppr_score=5.71868e-05 config.delta=1.25e-05 rsum=0.0846138 
+i=291 
+kth_ppr_score=4.44816e-05 config.delta=1.25e-05 rsum=0.03488 
+i=292 
+kth_ppr_score=8.77067e-05 config.delta=1.25e-05 rsum=0.0924587 
+i=293 
+kth_ppr_score=0.000127216 config.delta=5e-05 rsum=0.154461 
+i=294 
+kth_ppr_score=4.22282e-05 config.delta=1.25e-05 rsum=0.0560315 
+i=295 
+kth_ppr_score=6.9753e-05 config.delta=1.25e-05 rsum=0.0905891 
+i=296 
+kth_ppr_score=6.9753e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=297 
+kth_ppr_score=6.9753e-05 config.delta=1.25e-05 rsum=4.26922e-06 
+i=298 
+kth_ppr_score=8.17728e-05 config.delta=1.25e-05 rsum=0.120171 
+i=299 
+kth_ppr_score=2.99887e-05 config.delta=1.25e-05 rsum=0.0533508 
+i=300 
+kth_ppr_score=9.40065e-06 config.delta=3.125e-06 rsum=0.00841202 
+i=301 
+kth_ppr_score=9.49724e-05 config.delta=1.25e-05 rsum=0.0951577 
+i=302 
+kth_ppr_score=0.00010865 config.delta=5e-05 rsum=0.144403 
+i=303 
+kth_ppr_score=0.000114402 config.delta=5e-05 rsum=0.116909 
+i=304 
+kth_ppr_score=9.43626e-05 config.delta=1.25e-05 rsum=0.132358 
+i=305 
+kth_ppr_score=9.43626e-05 config.delta=1.25e-05 rsum=9.80797e-07 
+i=306 
+i=307 
+kth_ppr_score=7.33767e-05 config.delta=1.25e-05 rsum=0.0748061 
+i=308 
+kth_ppr_score=6.61239e-05 config.delta=1.25e-05 rsum=0.047246 
+i=309 
+kth_ppr_score=6.61239e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=310 
+kth_ppr_score=3.92646e-05 config.delta=1.25e-05 rsum=0.0325011 
+i=311 
+i=312 
+kth_ppr_score=8.86668e-05 config.delta=1.25e-05 rsum=0.0902978 
+i=313 
+kth_ppr_score=8.74239e-05 config.delta=1.25e-05 rsum=0.104667 
+i=314 
+kth_ppr_score=4.76654e-05 config.delta=1.25e-05 rsum=0.0563011 
+i=315 
+kth_ppr_score=4.18831e-05 config.delta=1.25e-05 rsum=0.0425188 
+i=316 
+kth_ppr_score=6.01317e-05 config.delta=1.25e-05 rsum=0.102008 
+i=317 
+kth_ppr_score=4.83945e-05 config.delta=1.25e-05 rsum=0.0801037 
+i=318 
+kth_ppr_score=6.46986e-05 config.delta=1.25e-05 rsum=0.0769056 
+i=319 
+i=320 
+kth_ppr_score=7.11315e-05 config.delta=1.25e-05 rsum=0.0620761 
+i=321 
+kth_ppr_score=2.82179e-05 config.delta=1.25e-05 rsum=0.0621258 
+i=322 
+kth_ppr_score=1.32973e-05 config.delta=3.125e-06 rsum=0.0187687 
+i=323 
+kth_ppr_score=1.32973e-05 config.delta=3.125e-06 rsum=4.69538e-06 
+i=324 
+i=325 
+kth_ppr_score=4.28331e-05 config.delta=1.25e-05 rsum=0.0565665 
+i=326 
+kth_ppr_score=4.28331e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=327 
+kth_ppr_score=4.47062e-05 config.delta=1.25e-05 rsum=0.0399913 
+i=328 
+kth_ppr_score=0.000113215 config.delta=5e-05 rsum=0.13334 
+i=329 
+kth_ppr_score=4.57337e-05 config.delta=1.25e-05 rsum=0.0475604 
+i=330 
+kth_ppr_score=8.55731e-05 config.delta=1.25e-05 rsum=0.0943722 
+i=331 
+kth_ppr_score=8.55731e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+i=332 
+kth_ppr_score=6.19894e-05 config.delta=1.25e-05 rsum=0.131619 
+i=333 
+kth_ppr_score=0.000108017 config.delta=5e-05 rsum=0.109086 
+i=334 
+i=335 
+kth_ppr_score=0.000148131 config.delta=5e-05 rsum=0.231493 
+i=336 
+kth_ppr_score=6.47191e-05 config.delta=1.25e-05 rsum=0.0732064 
+i=337 
+kth_ppr_score=5.42396e-05 config.delta=1.25e-05 rsum=0.0662136 
+i=338 
+kth_ppr_score=8.29437e-05 config.delta=1.25e-05 rsum=0.0782775 
+i=339 
+kth_ppr_score=0.000125867 config.delta=5e-05 rsum=0.137115 
+i=340 
+kth_ppr_score=8.22638e-06 config.delta=3.125e-06 rsum=0.00827034 
+i=341 
+kth_ppr_score=5.95546e-05 config.delta=1.25e-05 rsum=0.0621289 
+i=342 
+kth_ppr_score=0.000174758 config.delta=5e-05 rsum=0.208222 
+i=343 
+i=344 
+kth_ppr_score=0.000102173 config.delta=5e-05 rsum=0.0920523 
+i=345 
+kth_ppr_score=5.33758e-05 config.delta=1.25e-05 rsum=0.0884311 
+i=346 
+i=347 
+kth_ppr_score=5.33758e-05 config.delta=1.25e-05 rsum=1.93603e-06 
+i=348 
+kth_ppr_score=8.14954e-05 config.delta=1.25e-05 rsum=0.0853898 
+i=349 
+kth_ppr_score=0.000155972 config.delta=5e-05 rsum=0.205472 
+i=350 
+kth_ppr_score=0.000155972 config.delta=5e-05 rsum=1.36171e-05 
+i=351 
+kth_ppr_score=0.000113054 config.delta=5e-05 rsum=0.124273 
+i=352 
+kth_ppr_score=0.000126282 config.delta=5e-05 rsum=0.109878 
+i=353 
+kth_ppr_score=1.44027e-05 config.delta=3.125e-06 rsum=0.0177733 
+i=354 
+kth_ppr_score=1.32113e-05 config.delta=3.125e-06 rsum=0.0187307 
+i=355 
+kth_ppr_score=0.00011581 config.delta=5e-05 rsum=0.225066 
+i=356 
+kth_ppr_score=7.58834e-05 config.delta=1.25e-05 rsum=0.0896577 
+i=357 
+kth_ppr_score=0.000111195 config.delta=5e-05 rsum=0.12951 
+i=358 
+kth_ppr_score=8.2153e-05 config.delta=1.25e-05 rsum=0.0838719 
+i=359 
+kth_ppr_score=4.89416e-05 config.delta=1.25e-05 rsum=0.060261 
+i=360 
+kth_ppr_score=0.0001234 config.delta=5e-05 rsum=0.121256 
+i=361 
+kth_ppr_score=5.94279e-05 config.delta=1.25e-05 rsum=0.0342349 
+i=362 
+kth_ppr_score=3.2923e-05 config.delta=1.25e-05 rsum=0.0394096 
+i=363 
+kth_ppr_score=8.06344e-06 config.delta=3.125e-06 rsum=0.0126111 
+i=364 
+i=365 
+kth_ppr_score=6.04616e-05 config.delta=1.25e-05 rsum=0.0823515 
+i=366 
+kth_ppr_score=2.77847e-05 config.delta=1.25e-05 rsum=0.0479378 
+i=367 
+kth_ppr_score=5.79266e-05 config.delta=1.25e-05 rsum=0.0433706 
+i=368 
+kth_ppr_score=1.11316e-05 config.delta=3.125e-06 rsum=0.0114967 
+i=369 
+kth_ppr_score=1.11316e-05 config.delta=3.125e-06 rsum=1.6455e-07 
+i=370 
+kth_ppr_score=9.40815e-05 config.delta=1.25e-05 rsum=0.135987 
+i=371 
+kth_ppr_score=2.50799e-05 config.delta=1.25e-05 rsum=0.0291314 
+i=372 
+i=373 
+kth_ppr_score=4.64836e-05 config.delta=1.25e-05 rsum=0.0505922 
+i=374 
+kth_ppr_score=1.81069e-05 config.delta=3.125e-06 rsum=0.0193678 
+i=375 
+kth_ppr_score=7.79295e-05 config.delta=1.25e-05 rsum=0.0557338 
+i=376 
+i=377 
+kth_ppr_score=7.79295e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=378 
+kth_ppr_score=8.67045e-05 config.delta=1.25e-05 rsum=0.0598417 
+i=379 
+kth_ppr_score=8.67045e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=380 
+i=381 
+kth_ppr_score=6.05076e-05 config.delta=1.25e-05 rsum=0.0680652 
+i=382 
+kth_ppr_score=9.63276e-07 config.delta=1.62976e-06 rsum=0.00197472 
+i=383 
+kth_ppr_score=7.507e-05 config.delta=1.25e-05 rsum=0.0848279 
+i=384 
+kth_ppr_score=6.51945e-05 config.delta=1.25e-05 rsum=0.0802069 
+i=385 
+kth_ppr_score=9.75663e-06 config.delta=3.125e-06 rsum=0.0202726 
+i=386 
+kth_ppr_score=7.36922e-06 config.delta=3.125e-06 rsum=0.0083991 
+i=387 
+i=388 
+kth_ppr_score=5.77811e-05 config.delta=1.25e-05 rsum=0.0793487 
+i=389 
+kth_ppr_score=5.39582e-05 config.delta=1.25e-05 rsum=0.0542859 
+i=390 
+kth_ppr_score=3.55579e-05 config.delta=1.25e-05 rsum=0.0638025 
+i=391 
+kth_ppr_score=1.99663e-05 config.delta=3.125e-06 rsum=0.0175596 
+i=392 
+kth_ppr_score=9.33567e-05 config.delta=1.25e-05 rsum=0.0657407 
+i=393 
+kth_ppr_score=9.33567e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+i=394 
+kth_ppr_score=5.49673e-05 config.delta=1.25e-05 rsum=0.0659536 
+i=395 
+kth_ppr_score=0.00010148 config.delta=5e-05 rsum=0.134044 
+i=396 
+kth_ppr_score=0.00010148 config.delta=5e-05 rsum=8.01345e-06 
+i=397 
+kth_ppr_score=8.49756e-05 config.delta=1.25e-05 rsum=0.0679722 
+i=398 
+kth_ppr_score=6.89549e-05 config.delta=1.25e-05 rsum=0.0787654 
+i=399 
+### Timer 
+t=   0  141.380956  
+t=   5  2.020016  
+t=   6  6.043580  
+t=  13  117.629203  
+config.check_from=500 
+kth_ppr_score=8.61322e-05 config.delta=1.25e-05 rsum=0.0446038 
+kth_ppr_score=8.24023e-05 config.delta=1.25e-05 rsum=0.101776 
+kth_ppr_score=0.000119494 config.delta=5e-05 rsum=0.195735 
+kth_ppr_score=0.000119494 config.delta=5e-05 rsum=4.14381e-06 
+kth_ppr_score=7.41726e-05 config.delta=1.25e-05 rsum=0.0653539 
+kth_ppr_score=0.000106699 config.delta=5e-05 rsum=0.251432 
+kth_ppr_score=8.36618e-05 config.delta=1.25e-05 rsum=0.0749043 
+kth_ppr_score=8.36618e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+kth_ppr_score=6.87029e-05 config.delta=1.25e-05 rsum=0.0895879 
+kth_ppr_score=7.82039e-05 config.delta=1.25e-05 rsum=0.0768499 
+kth_ppr_score=7.74975e-05 config.delta=1.25e-05 rsum=0.0818723 
+kth_ppr_score=5.39337e-05 config.delta=1.25e-05 rsum=0.0786361 
+kth_ppr_score=9.35655e-05 config.delta=1.25e-05 rsum=0.149301 
+kth_ppr_score=9.35655e-05 config.delta=1.25e-05 rsum=4.55163e-06 
+kth_ppr_score=2.37371e-05 config.delta=3.125e-06 rsum=0.016679 
+kth_ppr_score=7.41427e-05 config.delta=1.25e-05 rsum=0.0854646 
+kth_ppr_score=0.000117762 config.delta=5e-05 rsum=0.161561 
+kth_ppr_score=0.000117762 config.delta=5e-05 rsum=8.11603e-06 
+kth_ppr_score=3.31095e-05 config.delta=1.25e-05 rsum=0.0505391 
+kth_ppr_score=0.000113936 config.delta=5e-05 rsum=0.190681 
+kth_ppr_score=8.53184e-05 config.delta=1.25e-05 rsum=0.153931 
+kth_ppr_score=6.34097e-05 config.delta=1.25e-05 rsum=0.0884522 
+kth_ppr_score=0.000102891 config.delta=5e-05 rsum=0.228887 
+kth_ppr_score=3.13588e-05 config.delta=1.25e-05 rsum=0.0418916 
+kth_ppr_score=5.88386e-05 config.delta=1.25e-05 rsum=0.0453513 
+kth_ppr_score=5.88386e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+kth_ppr_score=7.93796e-05 config.delta=1.25e-05 rsum=0.139492 
+kth_ppr_score=7.93796e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+kth_ppr_score=3.44167e-05 config.delta=1.25e-05 rsum=0.0459809 
+kth_ppr_score=3.26984e-05 config.delta=1.25e-05 rsum=0.0556684 
+kth_ppr_score=8.50226e-05 config.delta=1.25e-05 rsum=0.095615 
+kth_ppr_score=9.2687e-05 config.delta=1.25e-05 rsum=0.165679 
+kth_ppr_score=0.00013373 config.delta=5e-05 rsum=0.15732 
+kth_ppr_score=7.06238e-05 config.delta=1.25e-05 rsum=0.0397858 
+kth_ppr_score=7.06238e-05 config.delta=1.25e-05 rsum=1.34899e-06 
+kth_ppr_score=0.000104899 config.delta=5e-05 rsum=0.127534 
+kth_ppr_score=9.63414e-05 config.delta=1.25e-05 rsum=0.15979 
+kth_ppr_score=9.67342e-05 config.delta=1.25e-05 rsum=0.0929629 
+kth_ppr_score=9.67342e-05 config.delta=1.25e-05 rsum=4.93552e-06 
+kth_ppr_score=0.000103826 config.delta=5e-05 rsum=0.169281 
+kth_ppr_score=7.64664e-05 config.delta=1.25e-05 rsum=0.106442 
+kth_ppr_score=0.000108488 config.delta=5e-05 rsum=0.192314 
+kth_ppr_score=2.17531e-05 config.delta=3.125e-06 rsum=0.0135078 
+kth_ppr_score=0.000108557 config.delta=5e-05 rsum=0.122276 
+kth_ppr_score=0.000106445 config.delta=5e-05 rsum=0.0726855 
+kth_ppr_score=2.47016e-06 config.delta=1.62976e-06 rsum=0.00402175 
+kth_ppr_score=2.32419e-05 config.delta=3.125e-06 rsum=0.0198807 
+kth_ppr_score=0.000137653 config.delta=5e-05 rsum=0.237675 
+kth_ppr_score=0.000137653 config.delta=5e-05 rsum=1.35662e-05 
+kth_ppr_score=5.18818e-05 config.delta=1.25e-05 rsum=0.0924718 
+kth_ppr_score=2.56035e-05 config.delta=1.25e-05 rsum=0.026535 
+kth_ppr_score=2.56035e-05 config.delta=1.25e-05 rsum=5.02168e-07 
+kth_ppr_score=0.000114112 config.delta=5e-05 rsum=0.14247 
+kth_ppr_score=9.04255e-05 config.delta=1.25e-05 rsum=0.0354923 
+kth_ppr_score=0.000165718 config.delta=5e-05 rsum=0.25618 
+kth_ppr_score=3.23925e-05 config.delta=1.25e-05 rsum=0.0640159 
+kth_ppr_score=2.05326e-05 config.delta=3.125e-06 rsum=0.0231224 
+kth_ppr_score=1.50819e-05 config.delta=3.125e-06 rsum=0.0138442 
+kth_ppr_score=1.50819e-05 config.delta=3.125e-06 rsum=1.6455e-07 
+kth_ppr_score=3.34104e-06 config.delta=1.62976e-06 rsum=0.00643656 
+kth_ppr_score=3.34104e-06 config.delta=1.62976e-06 rsum=1.05312e-07 
+kth_ppr_score=0.000104389 config.delta=5e-05 rsum=0.107009 
+kth_ppr_score=0.000104389 config.delta=5e-05 rsum=8.11603e-06 
+kth_ppr_score=0.000114936 config.delta=5e-05 rsum=0.177521 
+kth_ppr_score=0.000108948 config.delta=5e-05 rsum=0.148971 
+kth_ppr_score=0.000108948 config.delta=5e-05 rsum=1.226e-06 
+kth_ppr_score=0.000108948 config.delta=5e-05 rsum=1.19614e-05 
+kth_ppr_score=3.95092e-05 config.delta=1.25e-05 rsum=0.0457213 
+kth_ppr_score=0.000101091 config.delta=5e-05 rsum=0.147718 
+kth_ppr_score=0.000123205 config.delta=5e-05 rsum=0.145903 
+kth_ppr_score=0.000112772 config.delta=5e-05 rsum=0.158686 
+kth_ppr_score=3.86487e-05 config.delta=1.25e-05 rsum=0.0462673 
+kth_ppr_score=2.54405e-05 config.delta=1.25e-05 rsum=0.0395777 
+kth_ppr_score=9.60421e-05 config.delta=1.25e-05 rsum=0.127498 
+kth_ppr_score=0.000115778 config.delta=5e-05 rsum=0.168672 
+kth_ppr_score=8.78245e-05 config.delta=1.25e-05 rsum=0.140852 
+kth_ppr_score=6.48912e-05 config.delta=1.25e-05 rsum=0.0888275 
+kth_ppr_score=0.000123525 config.delta=5e-05 rsum=0.13377 
+kth_ppr_score=0.000104425 config.delta=5e-05 rsum=0.0919685 
+kth_ppr_score=0.000104425 config.delta=5e-05 rsum=1.226e-06 
+kth_ppr_score=0.00017187 config.delta=5e-05 rsum=0.187526 
+kth_ppr_score=7.48691e-05 config.delta=1.25e-05 rsum=0.151714 
+kth_ppr_score=7.92144e-05 config.delta=1.25e-05 rsum=0.0346496 
+kth_ppr_score=5.34916e-05 config.delta=1.25e-05 rsum=0.0806144 
+kth_ppr_score=0.000128844 config.delta=5e-05 rsum=0.144133 
+kth_ppr_score=0.000126411 config.delta=5e-05 rsum=0.253414 
+kth_ppr_score=8.28803e-05 config.delta=1.25e-05 rsum=0.128889 
+kth_ppr_score=0.000131228 config.delta=5e-05 rsum=0.132516 
+kth_ppr_score=0.000123833 config.delta=5e-05 rsum=0.184826 
+kth_ppr_score=5.93459e-05 config.delta=1.25e-05 rsum=0.0621179 
+kth_ppr_score=5.93459e-05 config.delta=1.25e-05 rsum=2.88216e-06 
+kth_ppr_score=8.28868e-05 config.delta=1.25e-05 rsum=0.149711 
+kth_ppr_score=0.000125089 config.delta=5e-05 rsum=0.089774 
+kth_ppr_score=0.000125089 config.delta=5e-05 rsum=9.22194e-06 
+kth_ppr_score=0.000125089 config.delta=5e-05 rsum=4.14381e-06 
+kth_ppr_score=2.7523e-05 config.delta=1.25e-05 rsum=0.0363197 
+kth_ppr_score=0.000150171 config.delta=5e-05 rsum=0.245802 
+kth_ppr_score=0.000150171 config.delta=5e-05 rsum=6.50451e-06 
+kth_ppr_score=0.000150171 config.delta=5e-05 rsum=1.226e-06 
+kth_ppr_score=8.18729e-05 config.delta=1.25e-05 rsum=0.0616127 
+
+### Timer 
+t=   0  143.728084  
+t=   5  2.547553  
+t=   6  7.537242  
+t=  13  117.629203  
+config.beta=1 
+[0;31m--------------stop------------2021-01-29 07:57:05[0m
+
+
+

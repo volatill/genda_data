@@ -1,0 +1,42 @@
+[0;32m--------------start------------2021-01-29 10:50:54[0m
+[0;32margs:calc-acc --algo fora --epsilon 0.5 --prefix ./data/ --dataset dblp --check_size 100 [0m
+action: calc-acc
+config.epsilon=0.5 
+config.version=vector 
+config.action=calc-acc 
+sub constructor 
+init graph n: 613586 m: 3980318
+query_num=100 
+query_num=0 
+algo=fora 
+rela_err=0 ab_err=0 NDCG=0 precision=0 
+query_num=100 
+algo=baton 
+rela_err=188.883 ab_err=1.91822e-06 NDCG=-nan precision=1 
+query_num=100 
+algo=partup 
+rela_err=188.899 ab_err=2.05351e-06 NDCG=-nan precision=1 
+query_num=100 
+algo=lazyup 
+rela_err=188.883 ab_err=1.94443e-06 NDCG=-nan precision=1 
+query_num=0 
+algo=resacc 
+rela_err=0 ab_err=0 NDCG=0 precision=0 
+query_num=100 
+algo=fora 
+rela_err=0.00722652 ab_err=1.14487e-06 NDCG=0.999994 precision=0.9929 
+query_num=100 
+algo=foran 
+rela_err=225343 ab_err=0.00114237 NDCG=-nan precision=0.34146 
+query_num=100 
+algo=partup 
+rela_err=225344 ab_err=0.00114235 NDCG=-nan precision=0.34148 
+query_num=100 
+algo=lazyup 
+rela_err=225344 ab_err=0.00114235 NDCG=-nan precision=0.34146 
+### Timer 
+config.beta=1 
+[0;31m--------------stop------------2021-01-29 10:53:15[0m
+
+
+

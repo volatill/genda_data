@@ -1,0 +1,110 @@
+n= 4847571
+...
+n=: 4847571
+m = :68993773
+read file time: 20.8255
+edge num: 68993773
+thread core: 40
+init done! 
+read done!
+----------------------------------------
+node: 932656
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 1258685
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 44663
+key not found
+key not found
+----------------------------------------
+node: 977237
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 2695781
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 3316562
+key not found
+----------------------------------------
+node: 889716
+key not found
+----------------------------------------
+node: 4276828
+key not found
+key not found
+----------------------------------------
+node: 2992273
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 651363
+key not found
+key not found
+----------------------------------------
+node: 3271202
+key not found
+key not found
+----------------------------------------
+node: 350953
+key not found
+key not found
+----------------------------------------
+node: 2692115
+key not found
+----------------------------------------
+node: 3626998
+key not found
+key not found
+key not found
+----------------------------------------
+node: 4496271
+key not found
+----------------------------------------
+node: 2444789
+----------------------------------------
+node: 2119247
+key not found
+----------------------------------------
+node: 3339690
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 4426259
+key not found
+key not found
+key not found
+key not found
+key not found
+key not found
+----------------------------------------
+node: 861255
+avg abserr: 2.53507e-06
+avg precision: 0.994
+avg NDCG: 0.997628
+total time: 5.69022
+./TopPPR -d lj -algo TopPPR -r 0.99 -n 20 -k 500 

@@ -1,0 +1,48 @@
+[0;32m--------------start------------2021-02-01 23:00:47[0m
+[0;32margs:dynamic-ss --algo fora --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --beta 1 --opt --query_size 5 --update_size 95 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+rw_max_size=2439069886 rw_idx.max_size()=4611686018427387903 
+i=0 
+rw_max_size=2439069888 rw_idx.max_size()=4611686018427387903 
+i=1 
+rw_max_size=2439069889 rw_idx.max_size()=4611686018427387903 
+i=2 
+rw_max_size=2439069891 rw_idx.max_size()=4611686018427387903 
+i=3 
+rw_max_size=2439069892 rw_idx.max_size()=4611686018427387903 
+i=4 
+rw_max_size=2439069894 rw_idx.max_size()=4611686018427387903 
+i=5 
+rw_max_size=2439069896 rw_idx.max_size()=4611686018427387903 
+i=6 
+rw_max_size=2439069898 rw_idx.max_size()=4611686018427387903 
+i=7 
+rw_max_size=2439069900 rw_idx.max_size()=4611686018427387903 
+i=8 
+rw_max_size=2439069901 rw_idx.max_size()=4611686018427387903 
+i=9 
+i=10 
+rw_max_size=2439069903 rw_idx.max_size()=4611686018427387903 
+i=11 
+rw_max_size=2439069904 rw_idx.max_size()=4611686018427387903 
+i=12 
+rw_max_size=2439069906 rw_idx.max_size()=4611686018427387903 
+i=13 
+rw_max_size=2439069908 rw_idx.max_size()=4611686018427387903 
+i=14 
+rw_max_size=2439069909 rw_idx.max_size()=4611686018427387903 

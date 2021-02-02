@@ -1,0 +1,7 @@
+[0;32m--------------start------------2021-02-02 11:36:43[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 5 --update_size 95 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 

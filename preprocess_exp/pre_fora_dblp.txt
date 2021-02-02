@@ -1,0 +1,28 @@
+[0;32m--------------start------------2021-02-02 12:59:27[0m
+[0;32margs:build --prefix ./data/ --dataset dblp --epsilon 0.5 --beta 1 --opt [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 613586 m: 3980318
+load graph finish 
+finihsed initing parameters 
+graph.n=613586 graph.m=3980318 
+tuned_index_size=13798771 
+rand-walking... 
+config.rmax=4.93327e-08 config.omega=8.60261e+07 config.rmax*config.omega=4.24391 
+original_index_size=17176385 tuned_index_size=13798771 original_index_size*1.0/tuned_index_size=1.24478 rw_max_size=16892092 
+materializing... 
+rw_idx.size()=13798771 rw_idx_info.size()=613586 
+Memory usage (MB):171.692
+
+### Timer 
+t=   0  4.005479  
+t=   1  3.756321  
+t=   2  0.239717  
+config.beta=1 
+[0;31m--------------stop------------2021-02-02 12:59:33[0m
+
+
+

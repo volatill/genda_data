@@ -1,0 +1,28 @@
+[0;32m--------------start------------2021-02-02 13:05:10[0m
+[0;32margs:build --prefix ./data/ --dataset lj --epsilon 0.5 --beta 1 --opt [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 4847571 m: 68993773
+load graph finish 
+finihsed initing parameters 
+graph.n=4847571 graph.m=68993773 
+tuned_index_size=170192707 
+rand-walking... 
+config.rmax=3.93553e-09 config.omega=7.79835e+08 config.rmax*config.omega=3.06906 
+original_index_size=213019428 tuned_index_size=170192707 original_index_size*1.0/tuned_index_size=1.25164 rw_max_size=211746272 
+materializing... 
+rw_idx.size()=170192707 rw_idx_info.size()=4847571 
+Memory usage (MB):1966.8
+
+### Timer 
+t=   0  98.766842  
+t=   1  94.547223  
+t=   2  4.149028  
+config.beta=1 
+[0;31m--------------stop------------2021-02-02 13:07:14[0m
+
+
+

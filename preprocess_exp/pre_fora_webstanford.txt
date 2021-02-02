@@ -1,0 +1,28 @@
+[0;32m--------------start------------2021-02-02 12:59:19[0m
+[0;32margs:build --prefix ./data/ --dataset webstanford --epsilon 0.5 --beta 1 --opt [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 281904 m: 2312497
+load graph finish 
+finihsed initing parameters 
+graph.n=281904 graph.m=2312497 
+tuned_index_size=6875294 
+rand-walking... 
+config.rmax=9.82503e-08 config.omega=3.7331e+07 config.rmax*config.omega=3.66779 
+original_index_size=8659143 tuned_index_size=6875294 original_index_size*1.0/tuned_index_size=1.25946 rw_max_size=8481742 
+materializing... 
+rw_idx.size()=6875294 rw_idx_info.size()=281904 
+Memory usage (MB):88.588
+
+### Timer 
+t=   0  1.390705  
+t=   1  1.360063  
+t=   2  0.026279  
+config.beta=1 
+[0;31m--------------stop------------2021-02-02 12:59:21[0m
+
+
+

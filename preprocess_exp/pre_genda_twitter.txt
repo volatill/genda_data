@@ -1,0 +1,26 @@
+[0;32m--------------start------------2021-02-02 13:07:14[0m
+[0;32margs:build --prefix ./data/ --dataset twitter --epsilon 0.5 --baton --beta 1 [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+finihsed initing parameters 
+graph.n=41652230 graph.m=1468364884 
+rw_max_size=7341824420 rw_idx.max_size()=4611686018427387903 
+rand-walking... 
+materializing... 
+rw_idx.size()=7341824420 rw_idx_info.size()=41652230 
+Memory usage (MB):47839.3
+
+### Timer 
+t=   0  6740.529284  
+t=   1  6573.598708  
+t=   2  166.596538  
+config.beta=1 
+[0;31m--------------stop------------2021-02-02 15:10:17[0m
+
+
+

@@ -1,0 +1,26 @@
+[0;32m--------------start------------2021-02-02 12:59:33[0m
+[0;32margs:build --prefix ./data/ --dataset pokec --epsilon 0.5 --baton --beta 1 [0m
+action: build
+config.epsilon=0.5 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 1632803 m: 30622564
+load graph finish 
+finihsed initing parameters 
+graph.n=1632803 graph.m=30622564 
+rw_max_size=153112820 rw_idx.max_size()=4611686018427387903 
+rand-walking... 
+materializing... 
+rw_idx.size()=153112830 rw_idx_info.size()=1632803 
+Memory usage (MB):1693.43
+
+### Timer 
+t=   0  82.746136  
+t=   1  79.004853  
+t=   2  3.728120  
+config.beta=1 
+[0;31m--------------stop------------2021-02-02 13:01:08[0m
+
+
+

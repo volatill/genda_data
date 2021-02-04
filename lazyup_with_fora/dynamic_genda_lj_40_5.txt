@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-02-03 12:22:58[0m
-[0;32margs:dynamic-ss --algo lazyup --epsilon 0.1 --prefix ./data/ --dataset lj --with_idx --baton --beta 1 --query_size 40 --update_size 160 --check_size 0 [0m
+[0;32m--------------start------------2021-02-04 00:54:45[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset lj --with_idx --baton --beta 1 --query_size 40 --update_size 160 --check_size 0 [0m
 action: dynamic-ss
-config.epsilon=0.1 
+config.epsilon=0.5 
 config.version=vector 
 config.action=dynamic-ss 
 sub constructor 
@@ -14,8 +14,8 @@ queries.size()=2000
 updates.size()=2000 
 config.delta=2.06289e-07 
 config.pfail=2.06289e-07 
-config.rmax=7.87106e-10 
-config.omega=1.63765e+10 
+config.rmax=3.93553e-09 
+config.omega=7.79835e+08 
 i=0 
 errorlimit*epsrate=1.8566e-06 
 count=0 
@@ -696,14 +696,14 @@ graph.gr[u].size()=2
 i=197 
 i=198 
 i=199 
-trw:106104918054
-hrw:4726325312
+trw:7414156217
+hrw:2735143533
 ### Timer 
-t=   0  1120.957305  
-t=   3  1021.823228  
-t=   5  580.082214  
-t=   6  438.508452  
-t=  11  14.637242  
-t=  12  0.185521  
-t=  13  84.304526  
+t=   0  220.592145  
+t=   3  107.458270  
+t=   5  62.151017  
+t=   6  44.085466  
+t=  11  13.953633  
+t=  12  0.154782  
+t=  13  99.018733  
 config.beta=1 

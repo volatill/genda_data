@@ -1,5 +1,5 @@
-[0;32m--------------start------------2021-02-03 12:22:58[0m
-[0;32margs:dynamic-ss --algo lazyup --epsilon 0.1 --prefix ./data/ --dataset lj --with_idx --baton --beta 1 --query_size 40 --update_size 160 --check_size 0 [0m
+[0;32m--------------start------------2021-02-03 12:42:06[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.1 --prefix ./data/ --dataset lj --with_idx --with_fora --beta 1 --query_size 40 --update_size 160 --check_size 0 [0m
 action: dynamic-ss
 config.epsilon=0.1 
 config.version=vector 
@@ -696,14 +696,14 @@ graph.gr[u].size()=2
 i=197 
 i=198 
 i=199 
-trw:106104918054
-hrw:4726325312
+trw:117257889156
+hrw:14094775047
 ### Timer 
-t=   0  1120.957305  
-t=   3  1021.823228  
-t=   5  580.082214  
-t=   6  438.508452  
-t=  11  14.637242  
-t=  12  0.185521  
-t=  13  84.304526  
+t=   0  2345.568706  
+t=   3  1867.460507  
+t=   5  322.563084  
+t=   6  1540.973276  
+t=  11  17.312869  
+t=  12  0.344661  
+t=  13  460.444009  
 config.beta=1 

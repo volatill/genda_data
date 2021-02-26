@@ -1,4 +1,4 @@
-[0;32m--------------start------------2021-01-26 18:09:59[0m
+[0;32m--------------start------------2021-02-08 15:25:39[0m
 [0;32margs:dynamic-ss --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 40 --update_size 60 --check_size 0 [0m
 action: dynamic-ss
 config.epsilon=0.5 
@@ -299,11 +299,11 @@ i=99
 trw:77576301075
 hrw:68460454119
 ### Timer 
-t=   0  2532.646158  
-t=   3  2355.116424  
-t=   5  1415.631167  
-t=   6  924.173847  
-t=  11  41.823521  
-t=  12  0.916384  
-t=  13  134.731467  
+t=   0  2276.592983  
+t=   3  2094.984967  
+t=   5  1311.562356  
+t=   6  770.856165  
+t=  11  36.669369  
+t=  12  0.559340  
+t=  13  144.323179  
 config.beta=1 

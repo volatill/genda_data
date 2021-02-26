@@ -1,5 +1,5 @@
-[0;32m--------------start------------2021-01-20 00:51:46[0m
-[0;32margs:dynamic-ss --algo fora --epsilon 0.5 --prefix ./data/ --dataset webstanford --with_idx --beta 1 --opt --query_size 80 --update_size 20 --check_size 0 [0m
+[0;32m--------------start------------2021-02-08 22:14:33[0m
+[0;32margs:dynamic-ss --algo fora --epsilon 0.5 --prefix ./data/ --dataset webstanford --with_idx --beta 1 --opt --query_size 80 --update_size 320 --check_size 0 [0m
 action: dynamic-ss
 config.epsilon=0.5 
 config.version=vector 
@@ -19,136 +19,736 @@ config.omega=3.7331e+07
 rw_max_size=6785396 rw_idx.max_size()=4611686018427387903 
 i=0 
 i=1 
-i=2 
-i=3 
-i=4 
-i=5 
-i=6 
 rw_max_size=6785399 rw_idx.max_size()=4611686018427387903 
-i=7 
+i=2 
 rw_max_size=6785402 rw_idx.max_size()=4611686018427387903 
+i=3 
+rw_max_size=6785404 rw_idx.max_size()=4611686018427387903 
+i=4 
+rw_max_size=6785408 rw_idx.max_size()=4611686018427387903 
+i=5 
+rw_max_size=6785411 rw_idx.max_size()=4611686018427387903 
+i=6 
+rw_max_size=6785413 rw_idx.max_size()=4611686018427387903 
+i=7 
+rw_max_size=6785416 rw_idx.max_size()=4611686018427387903 
 i=8 
+rw_max_size=6785420 rw_idx.max_size()=4611686018427387903 
 i=9 
+rw_max_size=6785422 rw_idx.max_size()=4611686018427387903 
 i=10 
+rw_max_size=6785425 rw_idx.max_size()=4611686018427387903 
 i=11 
+rw_max_size=6785428 rw_idx.max_size()=4611686018427387903 
 i=12 
 i=13 
+rw_max_size=6785431 rw_idx.max_size()=4611686018427387903 
 i=14 
+rw_max_size=6785434 rw_idx.max_size()=4611686018427387903 
 i=15 
+rw_max_size=6785437 rw_idx.max_size()=4611686018427387903 
 i=16 
+rw_max_size=6785440 rw_idx.max_size()=4611686018427387903 
 i=17 
-rw_max_size=6785404 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785443 rw_idx.max_size()=4611686018427387903 
 i=18 
 i=19 
-rw_max_size=6785408 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785446 rw_idx.max_size()=4611686018427387903 
 i=20 
+rw_max_size=6785448 rw_idx.max_size()=4611686018427387903 
 i=21 
+rw_max_size=6785452 rw_idx.max_size()=4611686018427387903 
 i=22 
-rw_max_size=6785411 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785455 rw_idx.max_size()=4611686018427387903 
 i=23 
+rw_max_size=6785457 rw_idx.max_size()=4611686018427387903 
 i=24 
-rw_max_size=6785413 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785460 rw_idx.max_size()=4611686018427387903 
 i=25 
+rw_max_size=6785464 rw_idx.max_size()=4611686018427387903 
 i=26 
+rw_max_size=6785466 rw_idx.max_size()=4611686018427387903 
 i=27 
-rw_max_size=6785416 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785469 rw_idx.max_size()=4611686018427387903 
 i=28 
+rw_max_size=6785472 rw_idx.max_size()=4611686018427387903 
 i=29 
+rw_max_size=6785475 rw_idx.max_size()=4611686018427387903 
 i=30 
+rw_max_size=6785478 rw_idx.max_size()=4611686018427387903 
 i=31 
+rw_max_size=6785481 rw_idx.max_size()=4611686018427387903 
 i=32 
+rw_max_size=6785484 rw_idx.max_size()=4611686018427387903 
 i=33 
 i=34 
+rw_max_size=6785487 rw_idx.max_size()=4611686018427387903 
 i=35 
+rw_max_size=6785490 rw_idx.max_size()=4611686018427387903 
 i=36 
+rw_max_size=6785492 rw_idx.max_size()=4611686018427387903 
 i=37 
-rw_max_size=6785420 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785496 rw_idx.max_size()=4611686018427387903 
 i=38 
+rw_max_size=6785499 rw_idx.max_size()=4611686018427387903 
 i=39 
+rw_max_size=6785501 rw_idx.max_size()=4611686018427387903 
 i=40 
+rw_max_size=6785504 rw_idx.max_size()=4611686018427387903 
 i=41 
+rw_max_size=6785508 rw_idx.max_size()=4611686018427387903 
 i=42 
+rw_max_size=6785510 rw_idx.max_size()=4611686018427387903 
 i=43 
-rw_max_size=6785422 rw_idx.max_size()=4611686018427387903 
 i=44 
+rw_max_size=6785513 rw_idx.max_size()=4611686018427387903 
 i=45 
 i=46 
-rw_max_size=6785425 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785516 rw_idx.max_size()=4611686018427387903 
 i=47 
+rw_max_size=6785519 rw_idx.max_size()=4611686018427387903 
 i=48 
+rw_max_size=6785522 rw_idx.max_size()=4611686018427387903 
 i=49 
 i=50 
+rw_max_size=6785525 rw_idx.max_size()=4611686018427387903 
 i=51 
+rw_max_size=6785528 rw_idx.max_size()=4611686018427387903 
 i=52 
+rw_max_size=6785531 rw_idx.max_size()=4611686018427387903 
 i=53 
+rw_max_size=6785534 rw_idx.max_size()=4611686018427387903 
 i=54 
-rw_max_size=6785428 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785536 rw_idx.max_size()=4611686018427387903 
 i=55 
 i=56 
 i=57 
+rw_max_size=6785540 rw_idx.max_size()=4611686018427387903 
 i=58 
+rw_max_size=6785543 rw_idx.max_size()=4611686018427387903 
 i=59 
+rw_max_size=6785545 rw_idx.max_size()=4611686018427387903 
 i=60 
+rw_max_size=6785548 rw_idx.max_size()=4611686018427387903 
 i=61 
 i=62 
+rw_max_size=6785552 rw_idx.max_size()=4611686018427387903 
 i=63 
+rw_max_size=6785554 rw_idx.max_size()=4611686018427387903 
 i=64 
+rw_max_size=6785557 rw_idx.max_size()=4611686018427387903 
 i=65 
+rw_max_size=6785560 rw_idx.max_size()=4611686018427387903 
 i=66 
+rw_max_size=6785563 rw_idx.max_size()=4611686018427387903 
 i=67 
-rw_max_size=6785431 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785566 rw_idx.max_size()=4611686018427387903 
 i=68 
+rw_max_size=6785569 rw_idx.max_size()=4611686018427387903 
 i=69 
 i=70 
-rw_max_size=6785434 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785572 rw_idx.max_size()=4611686018427387903 
 i=71 
+rw_max_size=6785575 rw_idx.max_size()=4611686018427387903 
 i=72 
-rw_max_size=6785437 rw_idx.max_size()=4611686018427387903 
 i=73 
+rw_max_size=6785578 rw_idx.max_size()=4611686018427387903 
 i=74 
-rw_max_size=6785440 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785580 rw_idx.max_size()=4611686018427387903 
 i=75 
+rw_max_size=6785584 rw_idx.max_size()=4611686018427387903 
 i=76 
-rw_max_size=6785443 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785587 rw_idx.max_size()=4611686018427387903 
 i=77 
-rw_max_size=6785446 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785589 rw_idx.max_size()=4611686018427387903 
 i=78 
+rw_max_size=6785592 rw_idx.max_size()=4611686018427387903 
 i=79 
+rw_max_size=6785596 rw_idx.max_size()=4611686018427387903 
 i=80 
-rw_max_size=6785448 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785598 rw_idx.max_size()=4611686018427387903 
 i=81 
 i=82 
+rw_max_size=6785601 rw_idx.max_size()=4611686018427387903 
 i=83 
+rw_max_size=6785604 rw_idx.max_size()=4611686018427387903 
 i=84 
 i=85 
 i=86 
+rw_max_size=6785607 rw_idx.max_size()=4611686018427387903 
 i=87 
+rw_max_size=6785610 rw_idx.max_size()=4611686018427387903 
 i=88 
 i=89 
+rw_max_size=6785613 rw_idx.max_size()=4611686018427387903 
 i=90 
+rw_max_size=6785616 rw_idx.max_size()=4611686018427387903 
 i=91 
+rw_max_size=6785619 rw_idx.max_size()=4611686018427387903 
 i=92 
+rw_max_size=6785622 rw_idx.max_size()=4611686018427387903 
 i=93 
 i=94 
-rw_max_size=6785452 rw_idx.max_size()=4611686018427387903 
+rw_max_size=6785624 rw_idx.max_size()=4611686018427387903 
 i=95 
+rw_max_size=6785628 rw_idx.max_size()=4611686018427387903 
 i=96 
+rw_max_size=6785631 rw_idx.max_size()=4611686018427387903 
 i=97 
 i=98 
+rw_max_size=6785633 rw_idx.max_size()=4611686018427387903 
 i=99 
+rw_max_size=6785636 rw_idx.max_size()=4611686018427387903 
+i=100 
+rw_max_size=6785640 rw_idx.max_size()=4611686018427387903 
+i=101 
+rw_max_size=6785642 rw_idx.max_size()=4611686018427387903 
+i=102 
+rw_max_size=6785645 rw_idx.max_size()=4611686018427387903 
+i=103 
+rw_max_size=6785648 rw_idx.max_size()=4611686018427387903 
+i=104 
+i=105 
+i=106 
+rw_max_size=6785651 rw_idx.max_size()=4611686018427387903 
+i=107 
+rw_max_size=6785654 rw_idx.max_size()=4611686018427387903 
+i=108 
+rw_max_size=6785657 rw_idx.max_size()=4611686018427387903 
+i=109 
+rw_max_size=6785660 rw_idx.max_size()=4611686018427387903 
+i=110 
+rw_max_size=6785663 rw_idx.max_size()=4611686018427387903 
+i=111 
+rw_max_size=6785666 rw_idx.max_size()=4611686018427387903 
+i=112 
+i=113 
+rw_max_size=6785668 rw_idx.max_size()=4611686018427387903 
+i=114 
+rw_max_size=6785672 rw_idx.max_size()=4611686018427387903 
+i=115 
+i=116 
+rw_max_size=6785675 rw_idx.max_size()=4611686018427387903 
+i=117 
+rw_max_size=6785677 rw_idx.max_size()=4611686018427387903 
+i=118 
+rw_max_size=6785680 rw_idx.max_size()=4611686018427387903 
+i=119 
+rw_max_size=6785684 rw_idx.max_size()=4611686018427387903 
+i=120 
+rw_max_size=6785686 rw_idx.max_size()=4611686018427387903 
+i=121 
+rw_max_size=6785689 rw_idx.max_size()=4611686018427387903 
+i=122 
+rw_max_size=6785692 rw_idx.max_size()=4611686018427387903 
+i=123 
+rw_max_size=6785695 rw_idx.max_size()=4611686018427387903 
+i=124 
+i=125 
+rw_max_size=6785698 rw_idx.max_size()=4611686018427387903 
+i=126 
+rw_max_size=6785701 rw_idx.max_size()=4611686018427387903 
+i=127 
+rw_max_size=6785704 rw_idx.max_size()=4611686018427387903 
+i=128 
+rw_max_size=6785707 rw_idx.max_size()=4611686018427387903 
+i=129 
+i=130 
+rw_max_size=6785710 rw_idx.max_size()=4611686018427387903 
+i=131 
+rw_max_size=6785712 rw_idx.max_size()=4611686018427387903 
+i=132 
+rw_max_size=6785716 rw_idx.max_size()=4611686018427387903 
+i=133 
+rw_max_size=6785719 rw_idx.max_size()=4611686018427387903 
+i=134 
+rw_max_size=6785721 rw_idx.max_size()=4611686018427387903 
+i=135 
+rw_max_size=6785724 rw_idx.max_size()=4611686018427387903 
+i=136 
+rw_max_size=6785728 rw_idx.max_size()=4611686018427387903 
+i=137 
+rw_max_size=6785731 rw_idx.max_size()=4611686018427387903 
+i=138 
+rw_max_size=6785733 rw_idx.max_size()=4611686018427387903 
+i=139 
+i=140 
+i=141 
+i=142 
+rw_max_size=6785736 rw_idx.max_size()=4611686018427387903 
+i=143 
+i=144 
+rw_max_size=6785740 rw_idx.max_size()=4611686018427387903 
+i=145 
+rw_max_size=6785742 rw_idx.max_size()=4611686018427387903 
+i=146 
+rw_max_size=6785745 rw_idx.max_size()=4611686018427387903 
+i=147 
+rw_max_size=6785748 rw_idx.max_size()=4611686018427387903 
+i=148 
+rw_max_size=6785751 rw_idx.max_size()=4611686018427387903 
+i=149 
+rw_max_size=6785754 rw_idx.max_size()=4611686018427387903 
+i=150 
+rw_max_size=6785757 rw_idx.max_size()=4611686018427387903 
+i=151 
+rw_max_size=6785760 rw_idx.max_size()=4611686018427387903 
+i=152 
+i=153 
+i=154 
+rw_max_size=6785763 rw_idx.max_size()=4611686018427387903 
+i=155 
+rw_max_size=6785766 rw_idx.max_size()=4611686018427387903 
+i=156 
+rw_max_size=6785768 rw_idx.max_size()=4611686018427387903 
+i=157 
+rw_max_size=6785772 rw_idx.max_size()=4611686018427387903 
+i=158 
+rw_max_size=6785775 rw_idx.max_size()=4611686018427387903 
+i=159 
+rw_max_size=6785777 rw_idx.max_size()=4611686018427387903 
+i=160 
+i=161 
+rw_max_size=6785780 rw_idx.max_size()=4611686018427387903 
+i=162 
+i=163 
+i=164 
+rw_max_size=6785784 rw_idx.max_size()=4611686018427387903 
+i=165 
+rw_max_size=6785786 rw_idx.max_size()=4611686018427387903 
+i=166 
+rw_max_size=6785789 rw_idx.max_size()=4611686018427387903 
+i=167 
+i=168 
+rw_max_size=6785792 rw_idx.max_size()=4611686018427387903 
+i=169 
+rw_max_size=6785795 rw_idx.max_size()=4611686018427387903 
+i=170 
+rw_max_size=6785798 rw_idx.max_size()=4611686018427387903 
+i=171 
+rw_max_size=6785801 rw_idx.max_size()=4611686018427387903 
+i=172 
+rw_max_size=6785804 rw_idx.max_size()=4611686018427387903 
+i=173 
+rw_max_size=6785807 rw_idx.max_size()=4611686018427387903 
+i=174 
+i=175 
+rw_max_size=6785810 rw_idx.max_size()=4611686018427387903 
+i=176 
+rw_max_size=6785812 rw_idx.max_size()=4611686018427387903 
+i=177 
+rw_max_size=6785816 rw_idx.max_size()=4611686018427387903 
+i=178 
+i=179 
+rw_max_size=6785819 rw_idx.max_size()=4611686018427387903 
+i=180 
+rw_max_size=6785821 rw_idx.max_size()=4611686018427387903 
+i=181 
+rw_max_size=6785824 rw_idx.max_size()=4611686018427387903 
+i=182 
+rw_max_size=6785828 rw_idx.max_size()=4611686018427387903 
+i=183 
+i=184 
+rw_max_size=6785830 rw_idx.max_size()=4611686018427387903 
+i=185 
+i=186 
+rw_max_size=6785833 rw_idx.max_size()=4611686018427387903 
+i=187 
+rw_max_size=6785836 rw_idx.max_size()=4611686018427387903 
+i=188 
+i=189 
+i=190 
+rw_max_size=6785839 rw_idx.max_size()=4611686018427387903 
+i=191 
+rw_max_size=6785842 rw_idx.max_size()=4611686018427387903 
+i=192 
+rw_max_size=6785845 rw_idx.max_size()=4611686018427387903 
+i=193 
+rw_max_size=6785848 rw_idx.max_size()=4611686018427387903 
+i=194 
+rw_max_size=6785851 rw_idx.max_size()=4611686018427387903 
+i=195 
+i=196 
+rw_max_size=6785854 rw_idx.max_size()=4611686018427387903 
+i=197 
+rw_max_size=6785856 rw_idx.max_size()=4611686018427387903 
+i=198 
+rw_max_size=6785860 rw_idx.max_size()=4611686018427387903 
+i=199 
+i=200 
+rw_max_size=6785863 rw_idx.max_size()=4611686018427387903 
+i=201 
+rw_max_size=6785865 rw_idx.max_size()=4611686018427387903 
+i=202 
+rw_max_size=6785868 rw_idx.max_size()=4611686018427387903 
+i=203 
+rw_max_size=6785872 rw_idx.max_size()=4611686018427387903 
+i=204 
+rw_max_size=6785874 rw_idx.max_size()=4611686018427387903 
+i=205 
+rw_max_size=6785877 rw_idx.max_size()=4611686018427387903 
+i=206 
+rw_max_size=6785880 rw_idx.max_size()=4611686018427387903 
+i=207 
+rw_max_size=6785883 rw_idx.max_size()=4611686018427387903 
+i=208 
+rw_max_size=6785886 rw_idx.max_size()=4611686018427387903 
+i=209 
+rw_max_size=6785889 rw_idx.max_size()=4611686018427387903 
+i=210 
+rw_max_size=6785892 rw_idx.max_size()=4611686018427387903 
+i=211 
+i=212 
+rw_max_size=6785895 rw_idx.max_size()=4611686018427387903 
+i=213 
+rw_max_size=6785898 rw_idx.max_size()=4611686018427387903 
+i=214 
+rw_max_size=6785900 rw_idx.max_size()=4611686018427387903 
+i=215 
+rw_max_size=6785904 rw_idx.max_size()=4611686018427387903 
+i=216 
+i=217 
+rw_max_size=6785907 rw_idx.max_size()=4611686018427387903 
+i=218 
+rw_max_size=6785909 rw_idx.max_size()=4611686018427387903 
+i=219 
+rw_max_size=6785912 rw_idx.max_size()=4611686018427387903 
+i=220 
+rw_max_size=6785916 rw_idx.max_size()=4611686018427387903 
+i=221 
+rw_max_size=6785918 rw_idx.max_size()=4611686018427387903 
+i=222 
+rw_max_size=6785921 rw_idx.max_size()=4611686018427387903 
+i=223 
+rw_max_size=6785924 rw_idx.max_size()=4611686018427387903 
+i=224 
+rw_max_size=6785927 rw_idx.max_size()=4611686018427387903 
+i=225 
+rw_max_size=6785930 rw_idx.max_size()=4611686018427387903 
+i=226 
+rw_max_size=6785933 rw_idx.max_size()=4611686018427387903 
+i=227 
+i=228 
+rw_max_size=6785936 rw_idx.max_size()=4611686018427387903 
+i=229 
+i=230 
+rw_max_size=6785939 rw_idx.max_size()=4611686018427387903 
+i=231 
+i=232 
+rw_max_size=6785942 rw_idx.max_size()=4611686018427387903 
+i=233 
+i=234 
+i=235 
+rw_max_size=6785944 rw_idx.max_size()=4611686018427387903 
+i=236 
+rw_max_size=6785948 rw_idx.max_size()=4611686018427387903 
+i=237 
+rw_max_size=6785951 rw_idx.max_size()=4611686018427387903 
+i=238 
+rw_max_size=6785953 rw_idx.max_size()=4611686018427387903 
+i=239 
+rw_max_size=6785956 rw_idx.max_size()=4611686018427387903 
+i=240 
+i=241 
+rw_max_size=6785960 rw_idx.max_size()=4611686018427387903 
+i=242 
+rw_max_size=6785962 rw_idx.max_size()=4611686018427387903 
+i=243 
+i=244 
+rw_max_size=6785965 rw_idx.max_size()=4611686018427387903 
+i=245 
+rw_max_size=6785968 rw_idx.max_size()=4611686018427387903 
+i=246 
+rw_max_size=6785971 rw_idx.max_size()=4611686018427387903 
+i=247 
+rw_max_size=6785974 rw_idx.max_size()=4611686018427387903 
+i=248 
+rw_max_size=6785977 rw_idx.max_size()=4611686018427387903 
+i=249 
+rw_max_size=6785980 rw_idx.max_size()=4611686018427387903 
+i=250 
+rw_max_size=6785983 rw_idx.max_size()=4611686018427387903 
+i=251 
+rw_max_size=6785986 rw_idx.max_size()=4611686018427387903 
+i=252 
+rw_max_size=6785988 rw_idx.max_size()=4611686018427387903 
+i=253 
+rw_max_size=6785992 rw_idx.max_size()=4611686018427387903 
+i=254 
+i=255 
+rw_max_size=6785995 rw_idx.max_size()=4611686018427387903 
+i=256 
+i=257 
+i=258 
+i=259 
+i=260 
+rw_max_size=6785997 rw_idx.max_size()=4611686018427387903 
+i=261 
+rw_max_size=6786000 rw_idx.max_size()=4611686018427387903 
+i=262 
+rw_max_size=6786004 rw_idx.max_size()=4611686018427387903 
+i=263 
+rw_max_size=6786006 rw_idx.max_size()=4611686018427387903 
+i=264 
+rw_max_size=6786009 rw_idx.max_size()=4611686018427387903 
+i=265 
+rw_max_size=6786012 rw_idx.max_size()=4611686018427387903 
+i=266 
+rw_max_size=6786015 rw_idx.max_size()=4611686018427387903 
+i=267 
+rw_max_size=6786018 rw_idx.max_size()=4611686018427387903 
+i=268 
+rw_max_size=6786021 rw_idx.max_size()=4611686018427387903 
+i=269 
+i=270 
+rw_max_size=6786024 rw_idx.max_size()=4611686018427387903 
+i=271 
+rw_max_size=6786027 rw_idx.max_size()=4611686018427387903 
+i=272 
+rw_max_size=6786030 rw_idx.max_size()=4611686018427387903 
+i=273 
+rw_max_size=6786032 rw_idx.max_size()=4611686018427387903 
+i=274 
+rw_max_size=6786036 rw_idx.max_size()=4611686018427387903 
+i=275 
+rw_max_size=6786039 rw_idx.max_size()=4611686018427387903 
+i=276 
+rw_max_size=6786041 rw_idx.max_size()=4611686018427387903 
+i=277 
+rw_max_size=6786044 rw_idx.max_size()=4611686018427387903 
+i=278 
+rw_max_size=6786048 rw_idx.max_size()=4611686018427387903 
+i=279 
+rw_max_size=6786050 rw_idx.max_size()=4611686018427387903 
+i=280 
+rw_max_size=6786053 rw_idx.max_size()=4611686018427387903 
+i=281 
+rw_max_size=6786056 rw_idx.max_size()=4611686018427387903 
+i=282 
+i=283 
+rw_max_size=6786059 rw_idx.max_size()=4611686018427387903 
+i=284 
+rw_max_size=6786062 rw_idx.max_size()=4611686018427387903 
+i=285 
+i=286 
+rw_max_size=6786065 rw_idx.max_size()=4611686018427387903 
+i=287 
+rw_max_size=6786068 rw_idx.max_size()=4611686018427387903 
+i=288 
+i=289 
+rw_max_size=6786071 rw_idx.max_size()=4611686018427387903 
+i=290 
+rw_max_size=6786074 rw_idx.max_size()=4611686018427387903 
+i=291 
+rw_max_size=6786076 rw_idx.max_size()=4611686018427387903 
+i=292 
+i=293 
+rw_max_size=6786080 rw_idx.max_size()=4611686018427387903 
+i=294 
+rw_max_size=6786083 rw_idx.max_size()=4611686018427387903 
+i=295 
+rw_max_size=6786085 rw_idx.max_size()=4611686018427387903 
+i=296 
+rw_max_size=6786088 rw_idx.max_size()=4611686018427387903 
+i=297 
+rw_max_size=6786092 rw_idx.max_size()=4611686018427387903 
+i=298 
+rw_max_size=6786094 rw_idx.max_size()=4611686018427387903 
+i=299 
+rw_max_size=6786097 rw_idx.max_size()=4611686018427387903 
+i=300 
+i=301 
+rw_max_size=6786100 rw_idx.max_size()=4611686018427387903 
+i=302 
+rw_max_size=6786103 rw_idx.max_size()=4611686018427387903 
+i=303 
+rw_max_size=6786106 rw_idx.max_size()=4611686018427387903 
+i=304 
+rw_max_size=6786109 rw_idx.max_size()=4611686018427387903 
+i=305 
+rw_max_size=6786112 rw_idx.max_size()=4611686018427387903 
+i=306 
+rw_max_size=6786115 rw_idx.max_size()=4611686018427387903 
+i=307 
+rw_max_size=6786118 rw_idx.max_size()=4611686018427387903 
+i=308 
+rw_max_size=6786120 rw_idx.max_size()=4611686018427387903 
+i=309 
+rw_max_size=6786124 rw_idx.max_size()=4611686018427387903 
+i=310 
+rw_max_size=6786127 rw_idx.max_size()=4611686018427387903 
+i=311 
+rw_max_size=6786129 rw_idx.max_size()=4611686018427387903 
+i=312 
+rw_max_size=6786132 rw_idx.max_size()=4611686018427387903 
+i=313 
+rw_max_size=6786136 rw_idx.max_size()=4611686018427387903 
+i=314 
+rw_max_size=6786138 rw_idx.max_size()=4611686018427387903 
+i=315 
+rw_max_size=6786141 rw_idx.max_size()=4611686018427387903 
+i=316 
+rw_max_size=6786144 rw_idx.max_size()=4611686018427387903 
+i=317 
+rw_max_size=6786147 rw_idx.max_size()=4611686018427387903 
+i=318 
+rw_max_size=6786150 rw_idx.max_size()=4611686018427387903 
+i=319 
+rw_max_size=6786153 rw_idx.max_size()=4611686018427387903 
+i=320 
+rw_max_size=6786156 rw_idx.max_size()=4611686018427387903 
+i=321 
+rw_max_size=6786159 rw_idx.max_size()=4611686018427387903 
+i=322 
+rw_max_size=6786162 rw_idx.max_size()=4611686018427387903 
+i=323 
+rw_max_size=6786164 rw_idx.max_size()=4611686018427387903 
+i=324 
+rw_max_size=6786168 rw_idx.max_size()=4611686018427387903 
+i=325 
+rw_max_size=6786171 rw_idx.max_size()=4611686018427387903 
+i=326 
+rw_max_size=6786173 rw_idx.max_size()=4611686018427387903 
+i=327 
+rw_max_size=6786176 rw_idx.max_size()=4611686018427387903 
+i=328 
+i=329 
+i=330 
+i=331 
+rw_max_size=6786180 rw_idx.max_size()=4611686018427387903 
+i=332 
+rw_max_size=6786182 rw_idx.max_size()=4611686018427387903 
+i=333 
+rw_max_size=6786185 rw_idx.max_size()=4611686018427387903 
+i=334 
+rw_max_size=6786188 rw_idx.max_size()=4611686018427387903 
+i=335 
+rw_max_size=6786191 rw_idx.max_size()=4611686018427387903 
+i=336 
+rw_max_size=6786194 rw_idx.max_size()=4611686018427387903 
+i=337 
+rw_max_size=6786197 rw_idx.max_size()=4611686018427387903 
+i=338 
+rw_max_size=6786200 rw_idx.max_size()=4611686018427387903 
+i=339 
+rw_max_size=6786203 rw_idx.max_size()=4611686018427387903 
+i=340 
+i=341 
+rw_max_size=6786206 rw_idx.max_size()=4611686018427387903 
+i=342 
+rw_max_size=6786208 rw_idx.max_size()=4611686018427387903 
+i=343 
+rw_max_size=6786212 rw_idx.max_size()=4611686018427387903 
+i=344 
+rw_max_size=6786215 rw_idx.max_size()=4611686018427387903 
+i=345 
+i=346 
+rw_max_size=6786217 rw_idx.max_size()=4611686018427387903 
+i=347 
+rw_max_size=6786220 rw_idx.max_size()=4611686018427387903 
+i=348 
+rw_max_size=6786224 rw_idx.max_size()=4611686018427387903 
+i=349 
+i=350 
+rw_max_size=6786226 rw_idx.max_size()=4611686018427387903 
+i=351 
+rw_max_size=6786229 rw_idx.max_size()=4611686018427387903 
+i=352 
+i=353 
+rw_max_size=6786232 rw_idx.max_size()=4611686018427387903 
+i=354 
+rw_max_size=6786235 rw_idx.max_size()=4611686018427387903 
+i=355 
+i=356 
+rw_max_size=6786238 rw_idx.max_size()=4611686018427387903 
+i=357 
+rw_max_size=6786241 rw_idx.max_size()=4611686018427387903 
+i=358 
+rw_max_size=6786244 rw_idx.max_size()=4611686018427387903 
+i=359 
+i=360 
+rw_max_size=6786247 rw_idx.max_size()=4611686018427387903 
+i=361 
+rw_max_size=6786250 rw_idx.max_size()=4611686018427387903 
+i=362 
+i=363 
+rw_max_size=6786252 rw_idx.max_size()=4611686018427387903 
+i=364 
+rw_max_size=6786256 rw_idx.max_size()=4611686018427387903 
+i=365 
+rw_max_size=6786259 rw_idx.max_size()=4611686018427387903 
+i=366 
+rw_max_size=6786261 rw_idx.max_size()=4611686018427387903 
+i=367 
+i=368 
+rw_max_size=6786264 rw_idx.max_size()=4611686018427387903 
+i=369 
+rw_max_size=6786268 rw_idx.max_size()=4611686018427387903 
+i=370 
+rw_max_size=6786270 rw_idx.max_size()=4611686018427387903 
+i=371 
+rw_max_size=6786273 rw_idx.max_size()=4611686018427387903 
+i=372 
+rw_max_size=6786276 rw_idx.max_size()=4611686018427387903 
+i=373 
+i=374 
+rw_max_size=6786279 rw_idx.max_size()=4611686018427387903 
+i=375 
+rw_max_size=6786282 rw_idx.max_size()=4611686018427387903 
+i=376 
+rw_max_size=6786285 rw_idx.max_size()=4611686018427387903 
+i=377 
+rw_max_size=6786288 rw_idx.max_size()=4611686018427387903 
+i=378 
+rw_max_size=6786291 rw_idx.max_size()=4611686018427387903 
+i=379 
+rw_max_size=6786294 rw_idx.max_size()=4611686018427387903 
+i=380 
+rw_max_size=6786296 rw_idx.max_size()=4611686018427387903 
+i=381 
+rw_max_size=6786300 rw_idx.max_size()=4611686018427387903 
+i=382 
+rw_max_size=6786303 rw_idx.max_size()=4611686018427387903 
+i=383 
+rw_max_size=6786305 rw_idx.max_size()=4611686018427387903 
+i=384 
+rw_max_size=6786308 rw_idx.max_size()=4611686018427387903 
+i=385 
+i=386 
+rw_max_size=6786312 rw_idx.max_size()=4611686018427387903 
+i=387 
+rw_max_size=6786314 rw_idx.max_size()=4611686018427387903 
+i=388 
+i=389 
+rw_max_size=6786317 rw_idx.max_size()=4611686018427387903 
+i=390 
+rw_max_size=6786320 rw_idx.max_size()=4611686018427387903 
+i=391 
+i=392 
+rw_max_size=6786323 rw_idx.max_size()=4611686018427387903 
+i=393 
+rw_max_size=6786326 rw_idx.max_size()=4611686018427387903 
+i=394 
+i=395 
+rw_max_size=6786329 rw_idx.max_size()=4611686018427387903 
+i=396 
+rw_max_size=6786332 rw_idx.max_size()=4611686018427387903 
+i=397 
+i=398 
+i=399 
 ### Timer 
-t=   0  28.521249  
-t=   3  0.780712  
-t=   5  0.564864  
-t=   6  0.192423  
-t=  13  27.739408  
+t=   0  437.156014  
+t=   3  0.813378  
+t=   5  0.583516  
+t=   6  0.192131  
+t=  13  436.334944  
 
-trw:9768935
-hrw:9767661
+trw:9789850
+hrw:9788594
 ### Timer 
-t=   0  28.521249  
-t=   3  0.780712  
-t=   5  0.564864  
-t=   6  0.192423  
-t=  13  27.739408  
+t=   0  437.156014  
+t=   3  0.813378  
+t=   5  0.583516  
+t=   6  0.192131  
+t=  13  436.334944  
 config.beta=1 

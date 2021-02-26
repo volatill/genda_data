@@ -1,0 +1,1088 @@
+[0;32m--------------start------------2021-02-10 22:13:56[0m
+[0;32margs:dynamic-ss --algo resacc --epsilon 0.5 --prefix ./data/ --dataset lj --beta 1 --query_size 240 --update_size 160 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 4847571 m: 68993773
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=4847571 graph.m=68993773 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.06289e-07 
+config.pfail=2.06289e-07 
+config.rmax=3.93553e-09 
+config.omega=7.79835e+08 
+i=0 
+rsum=1 
+i=1 
+# of iteration from source: 12
+Scaler: 1.06558
+rsum=1 
+i=2 
+i=3 
+i=4 
+i=5 
+# of iteration from source: 11
+Scaler: 1.03696
+rsum=1 
+i=6 
+# of iteration from source: 18
+Scaler: 1.17018
+rsum=1 
+i=7 
+i=8 
+i=9 
+# of iteration from source: 21
+Scaler: 1.22942
+rsum=1 
+i=10 
+i=11 
+# of iteration from source: 14
+Scaler: 1.12517
+rsum=1 
+i=12 
+# of iteration from source: 14
+Scaler: 1.12555
+rsum=1 
+i=13 
+i=14 
+i=15 
+i=16 
+i=17 
+i=18 
+# of iteration from source: 10
+Scaler: 1.02597
+rsum=1 
+i=19 
+i=20 
+i=21 
+# of iteration from source: 10
+Scaler: 1.03387
+rsum=1 
+i=22 
+i=23 
+# of iteration from source: 16
+Scaler: 1.14488
+rsum=1 
+i=24 
+i=25 
+# of iteration from source: 14
+Scaler: 1.10333
+rsum=1 
+i=26 
+# of iteration from source: 16
+Scaler: 1.13847
+rsum=1 
+i=27 
+i=28 
+# of iteration from source: 11
+Scaler: 1.0401
+rsum=1 
+i=29 
+i=30 
+i=31 
+# of iteration from source: 13
+Scaler: 1.09767
+rsum=1 
+i=32 
+# of iteration from source: 17
+Scaler: 1.17788
+rsum=1 
+i=33 
+# of iteration from source: 10
+Scaler: 1.02775
+rsum=1 
+i=34 
+i=35 
+# of iteration from source: 8
+Scaler: 1.01145
+rsum=1 
+i=36 
+# of iteration from source: 11
+Scaler: 1.04956
+rsum=1 
+i=37 
+i=38 
+# of iteration from source: 14
+Scaler: 1.09496
+rsum=1 
+i=39 
+i=40 
+# of iteration from source: 15
+Scaler: 1.10748
+rsum=1 
+i=41 
+# of iteration from source: 10
+Scaler: 1.03327
+rsum=1 
+i=42 
+i=43 
+# of iteration from source: 18
+Scaler: 1.18397
+rsum=1 
+i=44 
+i=45 
+# of iteration from source: 21
+Scaler: 1.27293
+rsum=1 
+i=46 
+# of iteration from source: 18
+Scaler: 1.19832
+rsum=1 
+i=47 
+# of iteration from source: 10
+Scaler: 1.04542
+rsum=1 
+i=48 
+i=49 
+rsum=1 
+i=50 
+i=51 
+i=52 
+# of iteration from source: 25
+Scaler: 1.33716
+rsum=1 
+i=53 
+i=54 
+# of iteration from source: 10
+Scaler: 1.02961
+rsum=1 
+i=55 
+# of iteration from source: 18
+Scaler: 1.19551
+rsum=1 
+i=56 
+# of iteration from source: 14
+Scaler: 1.10237
+rsum=1 
+i=57 
+i=58 
+rsum=1 
+i=59 
+i=60 
+i=61 
+# of iteration from source: 16
+Scaler: 1.11627
+rsum=1 
+i=62 
+rsum=1 
+i=63 
+rsum=1 
+i=64 
+i=65 
+rsum=1 
+i=66 
+i=67 
+i=68 
+# of iteration from source: 14
+Scaler: 1.08386
+rsum=1 
+i=69 
+# of iteration from source: 8
+Scaler: 1.01068
+rsum=1 
+i=70 
+i=71 
+i=72 
+# of iteration from source: 13
+Scaler: 1.08685
+rsum=1 
+i=73 
+i=74 
+i=75 
+# of iteration from source: 15
+Scaler: 1.11205
+rsum=1 
+i=76 
+# of iteration from source: 10
+Scaler: 1.02813
+rsum=1 
+i=77 
+i=78 
+# of iteration from source: 10
+Scaler: 1.02461
+rsum=1 
+i=79 
+i=80 
+# of iteration from source: 13
+Scaler: 1.06611
+rsum=1 
+i=81 
+rsum=1 
+i=82 
+i=83 
+# of iteration from source: 13
+Scaler: 1.0826
+rsum=1 
+i=84 
+# of iteration from source: 12
+Scaler: 1.0638
+rsum=1 
+i=85 
+# of iteration from source: 26
+Scaler: 1.39216
+rsum=1 
+i=86 
+i=87 
+i=88 
+# of iteration from source: 7
+Scaler: 1.00507
+rsum=1 
+i=89 
+i=90 
+i=91 
+i=92 
+# of iteration from source: 11
+Scaler: 1.05662
+rsum=1 
+i=93 
+# of iteration from source: 18
+Scaler: 1.17936
+rsum=1 
+i=94 
+i=95 
+rsum=1 
+i=96 
+i=97 
+# of iteration from source: 10
+Scaler: 1.04104
+rsum=1 
+i=98 
+# of iteration from source: 11
+Scaler: 1.05526
+rsum=1 
+i=99 
+i=100 
+i=101 
+i=102 
+i=103 
+rsum=1 
+i=104 
+# of iteration from source: 12
+Scaler: 1.07926
+rsum=1 
+i=105 
+# of iteration from source: 17
+Scaler: 1.15807
+rsum=1 
+i=106 
+i=107 
+i=108 
+# of iteration from source: 10
+Scaler: 1.04896
+rsum=1 
+i=109 
+# of iteration from source: 21
+Scaler: 1.27418
+rsum=1 
+i=110 
+i=111 
+i=112 
+rsum=1 
+i=113 
+i=114 
+# of iteration from source: 13
+Scaler: 1.06545
+rsum=1 
+i=115 
+# of iteration from source: 15
+Scaler: 1.13336
+rsum=1 
+i=116 
+i=117 
+i=118 
+# of iteration from source: 12
+Scaler: 1.07848
+rsum=1 
+i=119 
+i=120 
+i=121 
+# of iteration from source: 78
+Scaler: 2.77778
+rsum=1 
+i=122 
+i=123 
+# of iteration from source: 12
+Scaler: 1.07755
+rsum=1 
+i=124 
+# of iteration from source: 14
+Scaler: 1.09324
+rsum=1 
+i=125 
+# of iteration from source: 18
+Scaler: 1.15486
+rsum=1 
+i=126 
+i=127 
+i=128 
+rsum=1 
+i=129 
+# of iteration from source: 11
+Scaler: 1.0537
+rsum=1 
+i=130 
+# of iteration from source: 7
+Scaler: 1.00367
+rsum=1 
+i=131 
+# of iteration from source: 10
+Scaler: 1.03513
+rsum=1 
+i=132 
+# of iteration from source: 10
+Scaler: 1.0385
+rsum=1 
+i=133 
+# of iteration from source: 13
+Scaler: 1.0865
+rsum=1 
+i=134 
+# of iteration from source: 9
+Scaler: 1.02465
+rsum=1 
+i=135 
+# of iteration from source: 13
+Scaler: 1.08329
+rsum=1 
+i=136 
+# of iteration from source: 11
+Scaler: 1.0532
+rsum=1 
+i=137 
+# of iteration from source: 13
+Scaler: 1.07243
+rsum=1 
+i=138 
+# of iteration from source: 13
+Scaler: 1.07381
+rsum=1 
+i=139 
+# of iteration from source: 10
+Scaler: 1.03209
+rsum=1 
+i=140 
+# of iteration from source: 11
+Scaler: 1.04539
+rsum=1 
+i=141 
+# of iteration from source: 13
+Scaler: 1.06109
+rsum=1 
+i=142 
+i=143 
+# of iteration from source: 15
+Scaler: 1.12214
+rsum=1 
+i=144 
+i=145 
+# of iteration from source: 12
+Scaler: 1.07256
+rsum=1 
+i=146 
+i=147 
+rsum=1 
+i=148 
+# of iteration from source: 13
+Scaler: 1.06928
+rsum=1 
+i=149 
+i=150 
+# of iteration from source: 7
+Scaler: 1.00322
+rsum=1 
+i=151 
+i=152 
+# of iteration from source: 19
+Scaler: 1.20194
+rsum=1 
+i=153 
+# of iteration from source: 11
+Scaler: 1.04577
+rsum=1 
+i=154 
+i=155 
+# of iteration from source: 11
+Scaler: 1.03821
+rsum=1 
+i=156 
+i=157 
+i=158 
+# of iteration from source: 12
+Scaler: 1.05608
+rsum=1 
+i=159 
+i=160 
+# of iteration from source: 78
+Scaler: 2.77778
+rsum=1 
+i=161 
+i=162 
+# of iteration from source: 16
+Scaler: 1.13989
+rsum=1 
+i=163 
+# of iteration from source: 8
+Scaler: 1.02373
+rsum=1 
+i=164 
+i=165 
+i=166 
+rsum=1 
+i=167 
+# of iteration from source: 12
+Scaler: 1.06127
+rsum=1 
+i=168 
+i=169 
+i=170 
+i=171 
+i=172 
+i=173 
+# of iteration from source: 11
+Scaler: 1.05215
+rsum=1 
+i=174 
+# of iteration from source: 10
+Scaler: 1.04007
+rsum=1 
+i=175 
+i=176 
+i=177 
+# of iteration from source: 21
+Scaler: 1.26206
+rsum=1 
+i=178 
+# of iteration from source: 12
+Scaler: 1.06592
+rsum=1 
+i=179 
+i=180 
+i=181 
+# of iteration from source: 13
+Scaler: 1.09593
+rsum=1 
+i=182 
+i=183 
+# of iteration from source: 13
+Scaler: 1.08017
+rsum=1 
+i=184 
+# of iteration from source: 36
+Scaler: 1.61538
+rsum=1 
+i=185 
+# of iteration from source: 20
+Scaler: 1.23269
+rsum=1 
+i=186 
+# of iteration from source: 17
+Scaler: 1.16787
+rsum=1 
+i=187 
+rsum=1 
+i=188 
+# of iteration from source: 13
+Scaler: 1.09892
+rsum=1 
+i=189 
+# of iteration from source: 13
+Scaler: 1.073
+rsum=1 
+i=190 
+i=191 
+i=192 
+i=193 
+# of iteration from source: 11
+Scaler: 1.05167
+rsum=1 
+i=194 
+i=195 
+# of iteration from source: 21
+Scaler: 1.24916
+rsum=1 
+i=196 
+# of iteration from source: 10
+Scaler: 1.03734
+rsum=1 
+i=197 
+# of iteration from source: 8
+Scaler: 1.01244
+rsum=1 
+i=198 
+# of iteration from source: 10
+Scaler: 1.03467
+rsum=1 
+i=199 
+# of iteration from source: 26
+Scaler: 1.36754
+rsum=1 
+i=200 
+i=201 
+# of iteration from source: 11
+Scaler: 1.05263
+rsum=1 
+i=202 
+# of iteration from source: 13
+Scaler: 1.0666
+rsum=1 
+i=203 
+# of iteration from source: 18
+Scaler: 1.17718
+rsum=1 
+i=204 
+# of iteration from source: 7
+Scaler: 1.0052
+rsum=1 
+i=205 
+# of iteration from source: 10
+Scaler: 1.0296
+rsum=1 
+i=206 
+# of iteration from source: 13
+Scaler: 1.06988
+rsum=1 
+i=207 
+# of iteration from source: 7
+Scaler: 1.00878
+rsum=1 
+i=208 
+# of iteration from source: 17
+Scaler: 1.155
+rsum=1 
+i=209 
+# of iteration from source: 11
+Scaler: 1.04429
+rsum=1 
+i=210 
+i=211 
+# of iteration from source: 16
+Scaler: 1.13307
+rsum=1 
+i=212 
+i=213 
+i=214 
+# of iteration from source: 13
+Scaler: 1.0728
+rsum=1 
+i=215 
+# of iteration from source: 12
+Scaler: 1.0785
+rsum=1 
+i=216 
+# of iteration from source: 10
+Scaler: 1.04111
+rsum=1 
+i=217 
+rsum=1 
+i=218 
+i=219 
+i=220 
+# of iteration from source: 13
+Scaler: 1.07594
+rsum=1 
+i=221 
+i=222 
+i=223 
+# of iteration from source: 9
+Scaler: 1.01962
+rsum=1 
+i=224 
+# of iteration from source: 12
+Scaler: 1.0608
+rsum=1 
+i=225 
+i=226 
+i=227 
+rsum=1 
+i=228 
+# of iteration from source: 16
+Scaler: 1.12268
+rsum=1 
+i=229 
+# of iteration from source: 14
+Scaler: 1.10952
+rsum=1 
+i=230 
+i=231 
+# of iteration from source: 11
+Scaler: 1.03787
+rsum=1 
+i=232 
+i=233 
+# of iteration from source: 23
+Scaler: 1.27442
+rsum=1 
+i=234 
+# of iteration from source: 11
+Scaler: 1.03943
+rsum=1 
+i=235 
+# of iteration from source: 36
+Scaler: 1.61495
+rsum=1 
+i=236 
+i=237 
+i=238 
+i=239 
+# of iteration from source: 16
+Scaler: 1.14833
+rsum=1 
+i=240 
+# of iteration from source: 9
+Scaler: 1.01377
+rsum=1 
+i=241 
+i=242 
+i=243 
+# of iteration from source: 15
+Scaler: 1.10609
+rsum=1 
+i=244 
+# of iteration from source: 11
+Scaler: 1.05164
+rsum=1 
+i=245 
+# of iteration from source: 12
+Scaler: 1.07483
+rsum=1 
+i=246 
+# of iteration from source: 10
+Scaler: 1.03737
+rsum=1 
+i=247 
+i=248 
+# of iteration from source: 12
+Scaler: 1.06362
+rsum=1 
+i=249 
+# of iteration from source: 32
+Scaler: 1.52189
+rsum=1 
+i=250 
+# of iteration from source: 11
+Scaler: 1.04408
+rsum=1 
+i=251 
+i=252 
+rsum=1 
+i=253 
+# of iteration from source: 11
+Scaler: 1.06186
+rsum=1 
+i=254 
+# of iteration from source: 10
+Scaler: 1.03105
+rsum=1 
+i=255 
+i=256 
+rsum=1 
+i=257 
+# of iteration from source: 8
+Scaler: 1.00787
+rsum=1 
+i=258 
+rsum=1 
+i=259 
+# of iteration from source: 12
+Scaler: 1.05071
+rsum=1 
+i=260 
+# of iteration from source: 16
+Scaler: 1.12752
+rsum=1 
+i=261 
+# of iteration from source: 8
+Scaler: 1.01218
+rsum=1 
+i=262 
+# of iteration from source: 16
+Scaler: 1.12143
+rsum=1 
+i=263 
+# of iteration from source: 16
+Scaler: 1.12888
+rsum=1 
+i=264 
+# of iteration from source: 11
+Scaler: 1.05053
+rsum=1 
+i=265 
+# of iteration from source: 12
+Scaler: 1.07409
+rsum=1 
+i=266 
+# of iteration from source: 12
+Scaler: 1.06468
+rsum=1 
+i=267 
+i=268 
+# of iteration from source: 9
+Scaler: 1.0196
+rsum=1 
+i=269 
+# of iteration from source: 7
+Scaler: 1.00631
+rsum=1 
+i=270 
+i=271 
+i=272 
+i=273 
+# of iteration from source: 16
+Scaler: 1.1248
+rsum=1 
+i=274 
+i=275 
+# of iteration from source: 13
+Scaler: 1.08677
+rsum=1 
+i=276 
+rsum=1 
+i=277 
+i=278 
+rsum=1 
+i=279 
+i=280 
+# of iteration from source: 10
+Scaler: 1.0383
+rsum=1 
+i=281 
+i=282 
+rsum=1 
+i=283 
+i=284 
+i=285 
+# of iteration from source: 20
+Scaler: 1.2246
+rsum=1 
+i=286 
+# of iteration from source: 15
+Scaler: 1.10555
+rsum=1 
+i=287 
+i=288 
+# of iteration from source: 13
+Scaler: 1.07494
+rsum=1 
+i=289 
+# of iteration from source: 12
+Scaler: 1.07259
+rsum=1 
+i=290 
+i=291 
+i=292 
+# of iteration from source: 11
+Scaler: 1.03563
+rsum=1 
+i=293 
+# of iteration from source: 8
+Scaler: 1.01234
+rsum=1 
+i=294 
+# of iteration from source: 17
+Scaler: 1.17961
+rsum=1 
+i=295 
+i=296 
+i=297 
+rsum=1 
+i=298 
+rsum=1 
+i=299 
+i=300 
+# of iteration from source: 16
+Scaler: 1.12965
+rsum=1 
+i=301 
+# of iteration from source: 9
+Scaler: 1.02022
+rsum=1 
+i=302 
+rsum=1 
+i=303 
+# of iteration from source: 12
+Scaler: 1.06782
+rsum=1 
+i=304 
+i=305 
+# of iteration from source: 16
+Scaler: 1.13847
+rsum=1 
+i=306 
+i=307 
+i=308 
+# of iteration from source: 20
+Scaler: 1.21842
+rsum=1 
+i=309 
+# of iteration from source: 20
+Scaler: 1.23987
+rsum=1 
+i=310 
+# of iteration from source: 11
+Scaler: 1.0551
+rsum=1 
+i=311 
+i=312 
+i=313 
+# of iteration from source: 11
+Scaler: 1.05992
+rsum=1 
+i=314 
+# of iteration from source: 14
+Scaler: 1.08981
+rsum=1 
+i=315 
+rsum=1 
+i=316 
+i=317 
+i=318 
+# of iteration from source: 15
+Scaler: 1.12463
+rsum=1 
+i=319 
+i=320 
+# of iteration from source: 13
+Scaler: 1.07826
+rsum=1 
+i=321 
+# of iteration from source: 9
+Scaler: 1.02057
+rsum=1 
+i=322 
+i=323 
+i=324 
+i=325 
+# of iteration from source: 31
+Scaler: 1.47863
+rsum=1 
+i=326 
+i=327 
+# of iteration from source: 12
+Scaler: 1.06242
+rsum=1 
+i=328 
+# of iteration from source: 12
+Scaler: 1.08143
+rsum=1 
+i=329 
+# of iteration from source: 18
+Scaler: 1.18778
+rsum=1 
+i=330 
+rsum=1 
+i=331 
+# of iteration from source: 12
+Scaler: 1.04816
+rsum=1 
+i=332 
+i=333 
+rsum=1 
+i=334 
+i=335 
+i=336 
+i=337 
+# of iteration from source: 16
+Scaler: 1.12983
+rsum=1 
+i=338 
+# of iteration from source: 40
+Scaler: 1.72414
+rsum=1 
+i=339 
+# of iteration from source: 10
+Scaler: 1.03345
+rsum=1 
+i=340 
+# of iteration from source: 15
+Scaler: 1.10882
+rsum=1 
+i=341 
+# of iteration from source: 9
+Scaler: 1.02922
+rsum=1 
+i=342 
+i=343 
+i=344 
+i=345 
+# of iteration from source: 17
+Scaler: 1.16688
+rsum=1 
+i=346 
+i=347 
+i=348 
+# of iteration from source: 15
+Scaler: 1.10743
+rsum=1 
+i=349 
+# of iteration from source: 11
+Scaler: 1.05986
+rsum=1 
+i=350 
+i=351 
+# of iteration from source: 16
+Scaler: 1.14771
+rsum=1 
+i=352 
+# of iteration from source: 23
+Scaler: 1.33076
+rsum=1 
+i=353 
+# of iteration from source: 9
+Scaler: 1.02105
+rsum=1 
+i=354 
+# of iteration from source: 15
+Scaler: 1.12338
+rsum=1 
+i=355 
+# of iteration from source: 11
+Scaler: 1.05935
+rsum=1 
+i=356 
+# of iteration from source: 17
+Scaler: 1.15584
+rsum=1 
+i=357 
+# of iteration from source: 30
+Scaler: 1.48749
+rsum=1 
+i=358 
+# of iteration from source: 10
+Scaler: 1.02485
+rsum=1 
+i=359 
+rsum=1 
+i=360 
+# of iteration from source: 12
+Scaler: 1.06872
+rsum=1 
+i=361 
+rsum=1 
+i=362 
+# of iteration from source: 10
+Scaler: 1.03195
+rsum=1 
+i=363 
+# of iteration from source: 14
+Scaler: 1.1098
+rsum=1 
+i=364 
+i=365 
+# of iteration from source: 13
+Scaler: 1.09632
+rsum=1 
+i=366 
+i=367 
+# of iteration from source: 14
+Scaler: 1.10473
+rsum=1 
+i=368 
+rsum=1 
+i=369 
+i=370 
+# of iteration from source: 13
+Scaler: 1.07805
+rsum=1 
+i=371 
+i=372 
+i=373 
+# of iteration from source: 15
+Scaler: 1.13155
+rsum=1 
+i=374 
+# of iteration from source: 14
+Scaler: 1.08491
+rsum=1 
+i=375 
+# of iteration from source: 13
+Scaler: 1.08599
+rsum=1 
+i=376 
+i=377 
+i=378 
+# of iteration from source: 13
+Scaler: 1.09592
+rsum=1 
+i=379 
+# of iteration from source: 17
+Scaler: 1.15162
+rsum=1 
+i=380 
+i=381 
+# of iteration from source: 7
+Scaler: 1.00472
+rsum=1 
+i=382 
+# of iteration from source: 11
+Scaler: 1.0467
+rsum=1 
+i=383 
+i=384 
+rsum=1 
+i=385 
+# of iteration from source: 10
+Scaler: 1.03953
+rsum=1 
+i=386 
+i=387 
+i=388 
+# of iteration from source: 30
+Scaler: 1.4755
+rsum=1 
+i=389 
+# of iteration from source: 32
+Scaler: 1.49395
+rsum=1 
+i=390 
+# of iteration from source: 37
+Scaler: 1.65994
+rsum=1 
+i=391 
+# of iteration from source: 12
+Scaler: 1.0628
+rsum=1 
+i=392 
+i=393 
+# of iteration from source: 78
+Scaler: 2.77778
+rsum=1 
+i=394 
+# of iteration from source: 11
+Scaler: 1.04517
+rsum=1 
+i=395 
+# of iteration from source: 8
+Scaler: 1.01902
+rsum=1 
+i=396 
+# of iteration from source: 11
+Scaler: 1.04608
+rsum=1 
+i=397 
+rsum=1 
+i=398 
+# of iteration from source: 17
+Scaler: 1.18123
+rsum=1 
+i=399 
+### Timer 
+t=   0  7007.767696  
+t=   3  7007.760827  
+t=   5  464.452125  
+t=   6  6522.568781  
+t=  13  0.000543  
+
+trw:10624109113
+hrw:0
+### Timer 
+t=   0  7007.767696  
+t=   3  7007.760827  
+t=   5  464.452125  
+t=   6  6522.568781  
+t=  13  0.000543  
+config.beta=1 

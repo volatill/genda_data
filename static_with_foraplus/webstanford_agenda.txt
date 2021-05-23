@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:20:25[0m
-[0;32margs:query --algo genda --prefix ./data/ --dataset webstanford --epsilon 0.5 --query_size 200 --with_idx [0m
+[0;32m--------------start------------2021-05-23 16:59:53[0m
+[0;32margs:query --algo genda --prefix ./data/ --dataset webstanford --epsilon 0.1 --query_size 200 --with_idx [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -15,8 +15,8 @@ query_size=200
 config.rmax_scale=1 
 config.delta=3.54731e-06 
 config.pfail=3.54731e-06 
-config.rmax=9.82503e-08 
-config.omega=3.7331e+07 
+config.rmax=1.96501e-08 
+config.omega=7.83952e+08 
 rw_max_size=11562485 rw_idx.max_size()=4611686018427387903 
 1. source node:134889
 ----------------------------- 
@@ -419,11 +419,11 @@ rw_max_size=11562485 rw_idx.max_size()=4611686018427387903
 200. source node:186627
 ----------------------------- 
 Average rand-walk idx hit ratio: 100%
-Average query time (s):0.00715673
-Memory usage (MB):110.972
+Average query time (s):0.0224913
+Memory usage (MB):113.46
 
 ### Timer 
-t=   3  1.431346  
-t=   5  1.021937  
-t=   6  0.377306  
+t=   3  4.498266  
+t=   5  3.629931  
+t=   6  0.813778  
 config.beta=1 

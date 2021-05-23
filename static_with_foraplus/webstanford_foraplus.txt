@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:20:30[0m
-[0;32margs:query --algo fora --prefix ./data/ --dataset webstanford --epsilon 0.5 --query_size 200 --with_idx --opt [0m
+[0;32m--------------start------------2021-05-23 17:00:00[0m
+[0;32margs:query --algo fora --prefix ./data/ --dataset webstanford --epsilon 0.1 --query_size 200 --with_idx --opt [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -9,14 +9,14 @@ init graph n: 281904 m: 2312497
 load graph finish 
 finihsed initing parameters 
 graph.n=281904 graph.m=2312497 
-rw_idx.size()=6875294 
+rw_idx.size()=28619938 
 config.algo=fora 
 query_size=200 
 config.rmax_scale=1 
 config.delta=3.54731e-06 
 config.pfail=3.54731e-06 
-config.rmax=9.82503e-08 
-config.omega=3.7331e+07 
+config.rmax=1.96501e-08 
+config.omega=7.83952e+08 
 1. source node:134889
 ----------------------------- 
 2. source node:63140
@@ -417,16 +417,16 @@ config.omega=3.7331e+07
 ----------------------------- 
 200. source node:186627
 ----------------------------- 
-Total cost (s): 1.57261
-22.4048% for random walk cost
-75.5006% for forward push cost
+Total cost (s): 3.3389
+27.3332% for random walk cost
+71.3834% for forward push cost
 ----------------------------- 
 Average rand-walk idx hit ratio: 100%
-Average query time (s):0.00786303
-Memory usage (MB):92.796
+Average query time (s):0.0166945
+Memory usage (MB):179.34
 
 ### Timer 
-t=   3  1.572606  
-t=   5  1.187327  
-t=   6  0.352339  
+t=   3  3.338901  
+t=   5  2.383421  
+t=   6  0.912628  
 config.beta=1 

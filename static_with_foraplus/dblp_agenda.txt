@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:20:44[0m
-[0;32margs:query --algo genda --prefix ./data/ --dataset dblp --epsilon 0.5 --query_size 200 --with_idx [0m
+[0;32m--------------start------------2021-05-23 17:00:26[0m
+[0;32margs:query --algo genda --prefix ./data/ --dataset dblp --epsilon 0.1 --query_size 200 --with_idx [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -15,8 +15,8 @@ query_size=200
 config.rmax_scale=1 
 config.delta=1.62976e-06 
 config.pfail=1.62976e-06 
-config.rmax=4.93327e-08 
-config.omega=8.60261e+07 
+config.rmax=9.86655e-09 
+config.omega=1.80655e+09 
 rw_max_size=19901590 rw_idx.max_size()=4611686018427387903 
 1. source node:135124
 ----------------------------- 
@@ -419,11 +419,11 @@ rw_max_size=19901590 rw_idx.max_size()=4611686018427387903
 200. source node:4864
 ----------------------------- 
 Average rand-walk idx hit ratio: 100%
-Average query time (s):0.0858602
-Memory usage (MB):209.664
+Average query time (s):0.685971
+Memory usage (MB):241.192
 
 ### Timer 
-t=   3  17.172047  
-t=   5  11.993256  
-t=   6  4.923959  
+t=   3  137.194114  
+t=   5  126.068169  
+t=   6  10.400869  
 config.beta=1 

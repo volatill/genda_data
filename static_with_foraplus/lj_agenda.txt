@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:37:36[0m
-[0;32margs:query --algo genda --prefix ./data/ --dataset lj --epsilon 0.5 --query_size 200 --with_idx [0m
+[0;32m--------------start------------2021-05-23 18:09:34[0m
+[0;32margs:query --algo genda --prefix ./data/ --dataset lj --epsilon 0.1 --query_size 200 --with_idx [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -15,8 +15,8 @@ query_size=200
 config.rmax_scale=1 
 config.delta=2.06289e-07 
 config.pfail=2.06289e-07 
-config.rmax=3.93553e-09 
-config.omega=7.79835e+08 
+config.rmax=7.87106e-10 
+config.omega=1.63765e+10 
 rw_max_size=344968865 rw_idx.max_size()=4611686018427387903 
 1. source node:2787765
 ----------------------------- 
@@ -418,12 +418,12 @@ rw_max_size=344968865 rw_idx.max_size()=4611686018427387903
 ----------------------------- 
 200. source node:2765769
 ----------------------------- 
-Average rand-walk idx hit ratio: 42.462%
-Average query time (s):2.05952
-Memory usage (MB):2756.53
+Average rand-walk idx hit ratio: 6.5772%
+Average query time (s):19.9288
+Memory usage (MB):2900.6
 
 ### Timer 
-t=   3  411.903599  
-t=   5  221.600967  
-t=   6  184.943662  
+t=   3  3985.761586  
+t=   5  2482.075599  
+t=   6  1487.943331  
 config.beta=1 

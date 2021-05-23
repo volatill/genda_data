@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:28:11[0m
-[0;32margs:query --algo fora --prefix ./data/ --dataset pokec --epsilon 0.5 --query_size 200 --with_idx --opt [0m
+[0;32m--------------start------------2021-05-23 17:38:26[0m
+[0;32margs:query --algo fora --prefix ./data/ --dataset pokec --epsilon 0.1 --query_size 200 --with_idx --opt [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -9,14 +9,14 @@ init graph n: 1632803 m: 30622564
 load graph finish 
 finihsed initing parameters 
 graph.n=1632803 graph.m=30622564 
-rw_idx.size()=64100981 
+rw_idx.size()=266398278 
 config.algo=fora 
 query_size=200 
 config.rmax_scale=1 
 config.delta=6.12444e-07 
 config.pfail=6.12444e-07 
-config.rmax=1.05412e-08 
-config.omega=2.44903e+08 
+config.rmax=2.10825e-09 
+config.omega=5.14297e+09 
 1. source node:140635
 ----------------------------- 
 2. source node:1141391
@@ -417,16 +417,16 @@ config.omega=2.44903e+08
 ----------------------------- 
 200. source node:1297093
 ----------------------------- 
-Total cost (s): 238.648
-24.2743% for random walk cost
-74.5809% for forward push cost
+Total cost (s): 1270.02
+38.3815% for random walk cost
+61.1603% for forward push cost
 ----------------------------- 
-Average rand-walk idx hit ratio: 44.0279%
-Average query time (s):1.19324
-Memory usage (MB):818.588
+Average rand-walk idx hit ratio: 16.8385%
+Average query time (s):6.3501
+Memory usage (MB):1670.1
 
 ### Timer 
-t=   3  238.647902  
-t=   5  177.985785  
-t=   6  57.930005  
+t=   3  1270.019283  
+t=   5  776.747943  
+t=   6  487.452583  
 config.beta=1 

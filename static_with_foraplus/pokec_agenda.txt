@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 21:23:58[0m
-[0;32margs:query --algo genda --prefix ./data/ --dataset pokec --epsilon 0.5 --query_size 200 --with_idx [0m
+[0;32m--------------start------------2021-05-23 17:08:35[0m
+[0;32margs:query --algo genda --prefix ./data/ --dataset pokec --epsilon 0.1 --query_size 200 --with_idx [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -15,8 +15,8 @@ query_size=200
 config.rmax_scale=1 
 config.delta=6.12444e-07 
 config.pfail=6.12444e-07 
-config.rmax=1.05412e-08 
-config.omega=2.44903e+08 
+config.rmax=2.10825e-09 
+config.omega=5.14297e+09 
 rw_max_size=153112820 rw_idx.max_size()=4611686018427387903 
 1. source node:140635
 ----------------------------- 
@@ -418,12 +418,12 @@ rw_max_size=153112820 rw_idx.max_size()=4611686018427387903
 ----------------------------- 
 200. source node:1297093
 ----------------------------- 
-Average rand-walk idx hit ratio: 51.447%
-Average query time (s):0.80379
-Memory usage (MB):1151.92
+Average rand-walk idx hit ratio: 8.71796%
+Average query time (s):8.49317
+Memory usage (MB):1239.46
 
 ### Timer 
-t=   3  160.757980  
-t=   5  85.580929  
-t=   6  73.173419  
+t=   3  1698.633046  
+t=   5  1133.306951  
+t=   6  559.835648  
 config.beta=1 

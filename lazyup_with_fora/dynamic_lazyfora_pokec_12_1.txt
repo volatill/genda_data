@@ -1,0 +1,73 @@
+[0;32m--------------start------------2021-05-24 03:47:18[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.1 --prefix ./data/ --dataset pokec --with_idx --with_fora --beta 1 --query_size 12 --update_size 8 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.1 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 1632803 m: 30622564
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=1632803 graph.m=30622564 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=6.12444e-07 
+config.pfail=6.12444e-07 
+config.rmax=2.10825e-09 
+config.omega=5.14297e+09 
+i=0 
+errorlimit*epsrate=3.06222e-07 
+count=0 
+graph.gr[u].size()=4 
+i=1 
+i=2 
+i=3 
+i=4 
+i=5 
+errorlimit*epsrate=5.51199e-06 
+count=0 
+graph.gr[u].size()=28 
+i=6 
+i=7 
+errorlimit*epsrate=3.06222e-07 
+count=0 
+graph.gr[u].size()=2 
+i=8 
+errorlimit*epsrate=1.22489e-06 
+count=0 
+graph.gr[u].size()=6 
+i=9 
+i=10 
+i=11 
+errorlimit*epsrate=9.7991e-06 
+count=0 
+graph.gr[u].size()=26 
+i=12 
+i=13 
+i=14 
+i=15 
+errorlimit*epsrate=3.52155e-05 
+count=0 
+graph.gr[u].size()=137 
+i=16 
+i=17 
+errorlimit*epsrate=1.25551e-05 
+count=0 
+graph.gr[u].size()=78 
+i=18 
+errorlimit*epsrate=2.756e-06 
+count=0 
+graph.gr[u].size()=21 
+i=19 
+trw:2786721352
+hrw:2467547607
+### Timer 
+t=   0  281.666278  
+t=   3  276.960567  
+t=   5  58.354894  
+t=   6  218.221544  
+t=  11  0.728146  
+t=  12  0.009412  
+t=  13  3.967376  
+config.beta=1 

@@ -1,0 +1,105 @@
+[0;32m--------------start------------2021-05-24 10:06:58[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.1 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 0 --update_size 20 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.1 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=5.46656e-11 
+config.omega=1.59527e+11 
+i=0 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=1 
+i=1 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=19 
+i=2 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=20 
+i=3 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=4 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=5 
+errorlimit*epsrate=5.28183e-07 
+count=0 
+graph.gr[u].size()=20 
+i=6 
+errorlimit*epsrate=2.64092e-07 
+count=0 
+graph.gr[u].size()=14 
+i=7 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=8 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=16 
+i=9 
+errorlimit*epsrate=2.76096e-07 
+count=0 
+graph.gr[u].size()=21 
+i=10 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=3 
+i=11 
+errorlimit*epsrate=6.00208e-08 
+count=0 
+graph.gr[u].size()=4 
+i=12 
+errorlimit*epsrate=1.32046e-07 
+count=0 
+graph.gr[u].size()=2 
+i=13 
+errorlimit*epsrate=1.08037e-07 
+count=0 
+graph.gr[u].size()=1 
+i=14 
+errorlimit*epsrate=2.40083e-08 
+count=0 
+graph.gr[u].size()=1 
+i=15 
+errorlimit*epsrate=1.20042e-07 
+count=0 
+graph.gr[u].size()=22 
+i=16 
+errorlimit*epsrate=4.80166e-08 
+count=0 
+graph.gr[u].size()=0 
+i=17 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=20 
+i=18 
+errorlimit*epsrate=9.60333e-08 
+count=0 
+graph.gr[u].size()=21 
+i=19 
+errorlimit*epsrate=2.28079e-07 
+count=0 
+graph.gr[u].size()=21 
+trw:0
+hrw:0
+### Timer 
+t=   0  11.229740  
+t=  11  11.086834  
+t=  12  0.090264  
+config.beta=1 

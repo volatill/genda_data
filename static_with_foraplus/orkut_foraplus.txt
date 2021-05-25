@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 22:10:47[0m
-[0;32margs:query --algo fora --prefix ./data/ --dataset orkut --epsilon 0.5 --query_size 200 --with_idx --opt [0m
+[0;32m--------------start------------2021-05-23 20:45:55[0m
+[0;32margs:query --algo fora --prefix ./data/ --dataset orkut --epsilon 0.1 --query_size 200 --with_idx --opt [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -9,14 +9,14 @@ init graph n: 3172700 m: 117185083
 load graph finish 
 finihsed initing parameters 
 graph.n=3172700 graph.m=117185083 
-rw_idx.size()=177955087 
+rw_idx.size()=741527470 
 config.algo=fora 
 query_size=200 
 config.rmax_scale=1 
 config.delta=3.15189e-07 
 config.pfail=3.15189e-07 
-config.rmax=3.78284e-09 
-config.omega=4.96948e+08 
+config.rmax=7.56568e-10 
+config.omega=1.04359e+10 
 1. source node:2295687
 ----------------------------- 
 2. source node:2298028
@@ -417,16 +417,16 @@ config.omega=4.96948e+08
 ----------------------------- 
 200. source node:1220345
 ----------------------------- 
-Total cost (s): 139.754
-35.3769% for random walk cost
-63.5885% for forward push cost
+Total cost (s): 1029.61
+80.5421% for random walk cost
+19.2657% for forward push cost
 ----------------------------- 
-Average rand-walk idx hit ratio: 5.70764%
-Average query time (s):0.698769
-Memory usage (MB):2434.33
+Average rand-walk idx hit ratio: 1.77377%
+Average query time (s):5.14806
+Memory usage (MB):4684.14
 
 ### Timer 
-t=   3  139.753882  
-t=   5  88.867389  
-t=   6  49.440561  
+t=   3  1029.612983  
+t=   5  198.361660  
+t=   6  829.272250  
 config.beta=1 

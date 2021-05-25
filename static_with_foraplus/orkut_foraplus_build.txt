@@ -1,0 +1,28 @@
+[0;32m--------------start------------2021-05-23 20:11:47[0m
+[0;32margs:build --prefix ./data/ --dataset orkut --epsilon 0.1 --beta 1 --opt [0m
+action: build
+config.epsilon=0.1 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 3172700 m: 117185083
+load graph finish 
+finihsed initing parameters 
+graph.n=3172700 graph.m=117185083 
+tuned_index_size=741527470 
+rand-walking... 
+config.rmax=7.56568e-10 config.omega=1.04359e+10 config.rmax*config.omega=7.89547 
+original_index_size=926494518 tuned_index_size=741527470 original_index_size*1.0/tuned_index_size=1.24944 rw_max_size=925230942 
+materializing... 
+rw_idx.size()=741527470 rw_idx_info.size()=3172700 
+Memory usage (MB):4552.06
+
+### Timer 
+t=   0  356.725190  
+t=   1  338.844615  
+t=   2  17.832959  
+config.beta=1 
+[0;31m--------------stop------------2021-05-23 20:18:29[0m
+
+
+

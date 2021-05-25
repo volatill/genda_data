@@ -1,0 +1,26 @@
+[0;32m--------------start------------2021-05-23 16:59:44[0m
+[0;32margs:build --prefix ./data/ --dataset webstanford --epsilon 0.1 --baton --beta 1 [0m
+action: build
+config.epsilon=0.1 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 281904 m: 2312497
+load graph finish 
+finihsed initing parameters 
+graph.n=281904 graph.m=2312497 
+rw_max_size=11562485 rw_idx.max_size()=4611686018427387903 
+rand-walking... 
+materializing... 
+rw_idx.size()=11562485 rw_idx_info.size()=281904 
+Memory usage (MB):102.54
+
+### Timer 
+t=   0  2.157943  
+t=   1  1.926793  
+t=   2  0.228657  
+config.beta=1 
+[0;31m--------------stop------------2021-05-23 16:59:47[0m
+
+
+

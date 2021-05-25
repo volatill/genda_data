@@ -1,7 +1,7 @@
-[0;32m--------------start------------2021-05-22 22:04:05[0m
-[0;32margs:query --algo genda --prefix ./data/ --dataset orkut --epsilon 0.5 --query_size 200 --with_idx [0m
+[0;32m--------------start------------2021-05-23 20:18:30[0m
+[0;32margs:query --algo genda --prefix ./data/ --dataset orkut --epsilon 0.1 --query_size 200 --with_idx [0m
 action: query
-config.epsilon=0.5 
+config.epsilon=0.1 
 config.version=vector 
 config.action=query 
 sub constructor 
@@ -15,8 +15,8 @@ query_size=200
 config.rmax_scale=1 
 config.delta=3.15189e-07 
 config.pfail=3.15189e-07 
-config.rmax=3.78284e-09 
-config.omega=4.96948e+08 
+config.rmax=7.56568e-10 
+config.omega=1.04359e+10 
 rw_max_size=585925415 rw_idx.max_size()=4611686018427387903 
 1. source node:2295687
 ----------------------------- 
@@ -418,12 +418,12 @@ rw_max_size=585925415 rw_idx.max_size()=4611686018427387903
 ----------------------------- 
 200. source node:1220345
 ----------------------------- 
-Average rand-walk idx hit ratio: 10.0273%
-Average query time (s):0.591029
-Memory usage (MB):4016.24
+Average rand-walk idx hit ratio: 1.25769%
+Average query time (s):6.85542
+Memory usage (MB):4132.09
 
 ### Timer 
-t=   3  118.205836  
-t=   5  51.549439  
-t=   6  65.410736  
+t=   3  1371.083604  
+t=   5  236.212223  
+t=   6  1132.741098  
 config.beta=1 

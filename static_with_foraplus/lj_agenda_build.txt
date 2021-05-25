@@ -1,0 +1,26 @@
+[0;32m--------------start------------2021-05-23 17:59:49[0m
+[0;32margs:build --prefix ./data/ --dataset lj --epsilon 0.1 --baton --beta 1 [0m
+action: build
+config.epsilon=0.1 
+config.version=vector 
+config.action=build 
+sub constructor 
+init graph n: 4847571 m: 68993773
+load graph finish 
+finihsed initing parameters 
+graph.n=4847571 graph.m=68993773 
+rw_max_size=344968865 rw_idx.max_size()=4611686018427387903 
+rand-walking... 
+materializing... 
+rw_idx.size()=342376955 rw_idx_info.size()=4847571 
+Memory usage (MB):2563.63
+
+### Timer 
+t=   0  160.575366  
+t=   1  152.147369  
+t=   2  8.390992  
+config.beta=1 
+[0;31m--------------stop------------2021-05-23 18:02:57[0m
+
+
+

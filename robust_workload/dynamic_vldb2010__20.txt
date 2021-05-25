@@ -1,0 +1,7 @@
+[0;32m--------------start------------2021-05-25 16:20:36[0m
+[0;32margs:dynamic-ss --algo fora --epsilon 0.5 --prefix ./data/ --dataset --with_idx --alter_idx --beta 1 --query_size 20 --update_size 380 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 

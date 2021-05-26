@@ -1,0 +1,76 @@
+[0;32m--------------start------------2021-05-26 09:42:59[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 12 --update_size 8 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+deserialize completed
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+i=0 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=1 
+i=1 
+i=2 
+i=3 
+i=4 
+i=5 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=19 
+i=6 
+i=7 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=20 
+i=8 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=9 
+i=10 
+i=11 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=12 
+i=13 
+i=14 
+i=15 
+errorlimit*epsrate=5.28183e-07 
+count=0 
+graph.gr[u].size()=20 
+i=16 
+i=17 
+errorlimit*epsrate=2.64092e-07 
+count=0 
+graph.gr[u].size()=14 
+i=18 
+errorlimit*epsrate=3.60125e-08 
+count=0 
+graph.gr[u].size()=1 
+i=19 
+trw:21093024176
+hrw:21093024176
+Memory usage (MB):50183.3
+
+### Timer 
+t=   0  650.971748  
+t=   3  643.449375  
+t=   5  402.266306  
+t=   6  237.086948  
+t=  11  4.895824  
+t=  12  0.214092  
+t=  13  2.398218  
+config.beta=1 

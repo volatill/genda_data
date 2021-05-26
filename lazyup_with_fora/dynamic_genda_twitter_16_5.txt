@@ -1,0 +1,64 @@
+[0;32m--------------start------------2021-05-26 11:13:04[0m
+[0;32margs:dynamic-ss --algo lazyup --epsilon 0.5 --prefix ./data/ --dataset twitter --with_idx --baton --beta 1 --query_size 16 --update_size 4 --check_size 0 [0m
+action: dynamic-ss
+config.epsilon=0.5 
+config.version=vector 
+config.action=dynamic-ss 
+sub constructor 
+init graph n: 41652230 m: 1468364884
+load graph finish 
+access(prefix.c_str()=0 
+finished initing parameters 
+graph.n=41652230 graph.m=1468364884 
+deserialize completed
+queries.size()=2000 
+updates.size()=2000 
+config.delta=2.40083e-08 
+config.pfail=2.40083e-08 
+config.rmax=2.73328e-10 
+config.omega=7.59654e+09 
+i=0 
+errorlimit*epsrate=8.40291e-08 
+count=0 
+graph.gr[u].size()=1 
+i=1 
+i=2 
+i=3 
+i=4 
+i=5 
+i=6 
+i=7 
+i=8 
+errorlimit*epsrate=1.68058e-07 
+count=0 
+graph.gr[u].size()=19 
+i=9 
+i=10 
+i=11 
+i=12 
+i=13 
+i=14 
+i=15 
+errorlimit*epsrate=1.4405e-07 
+count=0 
+graph.gr[u].size()=20 
+i=16 
+i=17 
+i=18 
+errorlimit*epsrate=1.20042e-08 
+count=0 
+graph.gr[u].size()=1 
+i=19 
+trw:35544374534
+hrw:26428527757
+Memory usage (MB):50177.5
+
+### Timer 
+t=   0  845.767742  
+t=   3  839.583523  
+t=   5  532.807665  
+t=   6  301.668629  
+t=  11  3.030272  
+t=  12  0.025259  
+t=  13  3.124789  
+config.beta=1 
